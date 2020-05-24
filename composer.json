@@ -20,7 +20,10 @@
         "drupal/views_bulk_operations": "^3.6",
         "drupal/webform": "^5.13",
         "drupal/xmlsitemap": "^1.0",
-        "drupal/drupal8_zymphonies_theme": "^1.4"
+        "drupal/drupal8_zymphonies_theme": "^1.4",
+        "drupal/migrate_upgrade": "^3.2",
+        "drupal/migrate_plus": "^4.2",
+        "drupal/migrate_tools": "^4.5"
     },
     "require-dev": {
         "drush/drush": "^9.0"
