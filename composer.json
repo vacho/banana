@@ -7,7 +7,20 @@
         "acquia/lightning": "^4.0",
         "cweagans/composer-patches": "^1.6.0",
         "drupal/core-composer-scaffold": "*",
-        "oomphinc/composer-installers-extender": "^1.1"
+        "oomphinc/composer-installers-extender": "^1.1",
+        "drupal/colorbox": "^1.6",
+        "drupal/eu_cookie_compliance": "^1.9",
+        "drupal/fb_likebox": "^2.1",
+        "drupal/fivestar": "^1.0@alpha",
+        "drupal/adsense": "^1.1",
+        "drupal/google_analytics": "^2.4",
+        "drupal/honeypot": "^2",
+        "drupal/responsive_share_buttons": "^1.0",
+        "drupal/tagclouds": "^1.0",
+        "drupal/views_bulk_operations": "^3.6",
+        "drupal/webform": "^5.13",
+        "drupal/xmlsitemap": "^1.0",
+        "drupal/drupal8_zymphonies_theme": "^1.4"
     },
     "require-dev": {
         "drush/drush": "^9.0"
