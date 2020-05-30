@@ -3,6 +3,8 @@ type: theme
 description: This is a theme for banana website
 # Defines the base theme
 base theme: drupal8_zymphonies_theme
+libraries:
+  - banana/global-styling
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
