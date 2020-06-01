@@ -5,6 +5,11 @@ description: This is a theme for banana website
 base theme: drupal8_zymphonies_theme
 libraries:
   - banana/global-styling
+libraries-override:
+  drupal8_zymphonies_theme/global-components:
+    css:
+      theme:
+        css/custom-style.css: css/style.css
 regions:
   header: 'Header'
   primary_menu: 'Primary Menu'
