@@ -275,10 +275,8 @@ input, button, select, textarea{
 input[type="submit"]{
   background: #dfb636;
   color: black;
-  border-width: medium;
-  border-color: black;
   font-weight: bold;
-  padding: 10px;
+  padding: 12px;
   line-height: 100%;
 }
 
@@ -383,6 +381,8 @@ nav h2{
 
 #search-block-form input{
   width: 100%;
+  border-width: medium;
+  border-color: black;
 }
 
 /*Demo typography*/
