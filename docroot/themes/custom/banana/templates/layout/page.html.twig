@@ -64,26 +64,26 @@
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="row">
-      <div class="navbar-header col-md-3">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        {% if page.header %}
-          {{ page.header }}
-        {% endif %}
+        <!-- Navigation -->
+        <div class="col-xs-12 col-sm-12 col-md-12 col-xl-12">
+          {% if page.primary_menu %}
+            {{ page.primary_menu }}
+          {% endif %}
+        </div>
+        <!--End Navigation -->
       </div>
-
-      <!-- Navigation -->
-      <div class="col-md-9">
-        {% if page.primary_menu %}
-          {{ page.primary_menu }}
-        {% endif %}      
-      </div>
-      <!--End Navigation -->
-
+      <div class="row">
+        <div class="navbar-header col-xs-12 col-sm-12 col-md-12 col-xl-12">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          {% if page.header %}
+            {{ page.header }}
+          {% endif %}
+        </div>
       </div>
     </div>
   </nav>
@@ -122,7 +122,7 @@
   <div class="topwidget">
     <!-- start: Container -->
     <div class="container">
-      
+
       <div class="row">
         <!-- Top widget first region -->
         <div class = {{ topwidget_class }}>
@@ -170,7 +170,7 @@
 <div id="wrapper">
   <!-- start: Container -->
   <div class="container">
-    
+
     <!--Content top-->
       {% if page.content_top %}
         <div class="row">
@@ -178,7 +178,7 @@
         </div>
       {% endif %}
     <!--End Content top-->
-    
+
     <!--start:content -->
     <div class="row">
       <div class="col-md-12">{{ page.breadcrumb }}</div>
@@ -214,7 +214,7 @@
         </div>
       {% endif %}
       <!---End Right SideBar -->
-      
+
     </div>
     <!--End Content -->
 
@@ -235,7 +235,7 @@
   <div class="middlewidget">
     <!-- start: Container -->
     <div class="container">
-      
+
       <div class="row">
         <!-- Top widget first region -->
         <div class = {{ middle_class }}>
@@ -270,7 +270,7 @@
   <div class="bottom-widgets">
     <!-- Start Container -->
     <div class="container">
-      
+
       <div class="row">
 
         <!-- Start Bottom First Region -->
@@ -314,9 +314,9 @@
 {% if page.footer_first or page.footer_second or page.footer_third %}
   <div class="footerwidget">
     <div class="container">
-      
+
       <div class="row">
-        
+
         <!-- Start Footer First Region -->
         <div class = {{ footer_class }}>
           {% if page.footer_first %}
@@ -393,8 +393,8 @@
 
       <!-- Copyright -->
       <div class="col-sm-6 col-md-6">
-        {% if copyright_text %}        
-          <p>{{copyright_text}}</p>        
+        {% if copyright_text %}
+          <p>{{copyright_text}}</p>
         {% endif %}
       </div>
       <!-- End Copyright -->
@@ -406,7 +406,7 @@
         </div>
       {% endif %}
       <!-- End Credit link -->
-      
+
     </div>
   </div>
 </div>

@@ -1,0 +1,9 @@
+/* HEADER THEMING*/
+.brand.logo, .brand.site-name {
+  width: 100%;
+  text-align:center;
+}
+.site-branding__slogan {
+  width: 100%;
+  text-align:center;
+}
