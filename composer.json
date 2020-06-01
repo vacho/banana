@@ -27,7 +27,8 @@
         "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/php": "^1",
         "drupal/term_merge": "^1@alpha",
-        "drupal/disqus": "^1@rc"
+        "drupal/disqus": "^1@rc",
+        "drupal/addtoany": "^1.14"
     },
     "require-dev": {
         "drush/drush": "^9.0"
