@@ -1,0 +1,12 @@
+uuid: 3e41b45d-8dc5-480e-bf70-5ed8ee8a6bfe
+langcode: es
+status: true
+dependencies: {  }
+id: website_feedback
+label: 'Website feedback'
+recipients:
+  - info@banana-soft.com
+reply: ''
+weight: 0
+message: null
+redirect: null

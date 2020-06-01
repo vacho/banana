@@ -1,0 +1,20 @@
+uuid: 75db7be7-799a-4c52-b556-efdd6f01f870
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.test
+  module:
+    - path
+id: node.test.path
+field_name: path
+entity_type: node
+bundle: test
+label: 'Alias de URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

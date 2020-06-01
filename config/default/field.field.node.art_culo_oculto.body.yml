@@ -1,0 +1,23 @@
+uuid: 68b6ea86-3557-47c9-9bb5-e0128402db04
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.art_culo_oculto
+  module:
+    - text
+id: node.art_culo_oculto.body
+field_name: body
+entity_type: node
+bundle: art_culo_oculto
+label: Cuerpo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

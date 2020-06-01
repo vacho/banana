@@ -1,0 +1,11 @@
+uuid: 79d26ac3-b3fa-4e76-ad96-cf63beda6ddb
+langcode: es
+status: true
+dependencies:
+  module:
+    - file
+id: file.file
+target_entity_type_id: file
+target_bundle: file
+default_langcode: current_interface
+language_alterable: true

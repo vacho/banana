@@ -1,0 +1,18 @@
+uuid: b088276f-de85-46a8-85d0-4e376f963146
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.programa
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.programa
+target_entity_type_id: node
+target_bundle: programa
+default_langcode: current_interface
+language_alterable: true

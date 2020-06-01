@@ -1,0 +1,25 @@
+uuid: 519e75a7-02ef-4a32-a303-f69967d40074
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7c5db8f5-e6fb-4209-a846-1e7b2285be95'
+  module:
+    - block_content
+  theme:
+    - banana
+id: footer
+theme: banana
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:7c5db8f5-e6fb-4209-a846-1e7b2285be95'
+settings:
+  id: 'block_content:7c5db8f5-e6fb-4209-a846-1e7b2285be95'
+  label: Footer
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

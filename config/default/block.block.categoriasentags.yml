@@ -1,0 +1,31 @@
+uuid: dfcd565a-2c75-4f05-9baa-d62a3ebe8470
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+    - tagclouds
+  theme:
+    - banana
+id: categoriasentags
+theme: banana
+region: sidebar_second
+weight: -8
+provider: null
+plugin: 'tagclouds_block:tags'
+settings:
+  id: 'tagclouds_block:tags'
+  label: 'Category Tag Cloud'
+  provider: tagclouds
+  label_display: visible
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: '12'
+  vocabulary: tags
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

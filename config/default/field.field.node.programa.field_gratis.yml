@@ -1,0 +1,23 @@
+uuid: 28117419-8b2b-4344-ac38-896ae29a6385
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gratis
+    - node.type.programa
+id: node.programa.field_gratis
+field_name: field_gratis
+entity_type: node
+bundle: programa
+label: Gratis
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Gratis
+  off_label: 'Versión de prueba'
+field_type: boolean

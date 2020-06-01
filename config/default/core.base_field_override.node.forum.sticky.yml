@@ -1,0 +1,22 @@
+uuid: 7254291a-c340-4483-84f8-0f6a2da6eaae
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.forum
+id: node.forum.sticky
+field_name: sticky
+entity_type: node
+bundle: forum
+label: 'Fijo al comienzo de las listas'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

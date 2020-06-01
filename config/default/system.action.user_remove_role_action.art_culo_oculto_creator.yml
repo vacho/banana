@@ -1,0 +1,14 @@
+uuid: 3d8045b7-32cf-48e8-8253-5cbb335f975e
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.art_culo_oculto_creator
+  module:
+    - user
+id: user_remove_role_action.art_culo_oculto_creator
+label: 'Elimina el rol Artículo oculto creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: art_culo_oculto_creator

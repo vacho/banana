@@ -1,0 +1,14 @@
+uuid: 3d671d2b-412f-4ae6-87b9-3820763c462a
+name: Banana-Soft.com
+mail: info@banana-soft.com
+slogan: 'Programas Gratis por Áreas Profesionales'
+page:
+  403: /
+  404: /search404
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: es
+default_langcode: es
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

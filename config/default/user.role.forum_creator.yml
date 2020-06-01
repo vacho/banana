@@ -1,0 +1,27 @@
+uuid: 84c536ad-fa3d-4a47-a14b-fa5b04560741
+langcode: es
+status: true
+dependencies: {  }
+id: forum_creator
+label: 'Tema del foro creator'
+weight: 11
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access contextual links'
+  - 'access image_browser entity browser pages'
+  - 'access in-place editing'
+  - 'access media_browser entity browser pages'
+  - 'access toolbar'
+  - 'configure any layout'
+  - 'create forum content'
+  - 'create url aliases'
+  - 'edit own forum content'
+  - 'use editorial transition create_new_draft'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'use text format rich_text'
+  - 'view any unpublished content'
+  - 'view forum revisions'
+  - 'view latest version'
+  - 'view own unpublished content'

@@ -777,4 +777,4 @@ $databases['migrate']['default'] = [
   'driver' => 'mysql',
 ];
 
-$settings['config_sync_directory'] = 'sites/default/files/config_d_1Wjw4It5TOty1wNcaXHxbATuOcvhrNe8fRm1R9wnQOIvxIzigJ9v7uJ83YkZ_s5U2QLRDQWA/sync';
+$settings['config_sync_directory'] = '../config/default';

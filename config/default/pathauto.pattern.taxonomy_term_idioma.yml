@@ -1,0 +1,22 @@
+uuid: 06b5dfad-a659-4606-b944-350a2ffa1b32
+langcode: es
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: taxonomy_term_idioma
+label: 'Término de taxonomía - Idioma'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[site:slogan]/[term:vocabulary]'
+selection_criteria:
+  -
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      idioma: idioma
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+selection_logic: and
+weight: 0
+relationships: {  }

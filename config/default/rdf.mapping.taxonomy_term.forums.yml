@@ -1,0 +1,30 @@
+uuid: 3597ff52-22ce-4290-ba1c-1a3f7924672c
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+  module:
+    - taxonomy
+id: taxonomy_term.forums
+targetEntityType: taxonomy_term
+bundle: forums
+types:
+  - 'sioc:Container'
+  - 'sioc:Forum'
+fieldMappings:
+  name:
+    properties:
+      - 'rdfs:label'
+      - 'skos:prefLabel'
+  description:
+    properties:
+      - 'skos:definition'
+  vid:
+    properties:
+      - 'skos:inScheme'
+    mapping_type: rel
+  parent:
+    properties:
+      - 'skos:broader'
+    mapping_type: rel

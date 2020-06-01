@@ -1,0 +1,20 @@
+uuid: a18732d7-881b-4631-844a-5b008ba0b275
+langcode: es
+status: true
+dependencies:
+  theme:
+    - banana
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: banana_local_actions
+theme: banana
+region: content
+weight: -6
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones primarias de administración'
+  provider: core
+  label_display: '0'
+visibility: {  }

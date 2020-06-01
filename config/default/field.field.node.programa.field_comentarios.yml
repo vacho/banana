@@ -1,0 +1,24 @@
+uuid: a29487b0-17c9-439b-a39c-b31b6451a366
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_comentarios
+    - node.type.programa
+  module:
+    - disqus
+id: node.programa.field_comentarios
+field_name: field_comentarios
+entity_type: node
+bundle: programa
+label: Comentarios
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: 1
+    identifier: ''
+default_value_callback: ''
+settings: {  }
+field_type: disqus_comment

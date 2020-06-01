@@ -1,0 +1,14 @@
+uuid: c9b5d5f8-41e6-47a2-87f2-85e63cb8ba77
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.forum_creator
+  module:
+    - user
+id: user_remove_role_action.forum_creator
+label: 'Elimina el rol Tema del foro creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: forum_creator

@@ -1,0 +1,33 @@
+uuid: c7eb9e93-6516-4d05-89e7-3fff997b2b38
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:text:bdd1b51d-508b-4517-8f29-8f4daa840533'
+  module:
+    - block_content
+    - node
+  theme:
+    - banana
+id: publiarticuloabajo
+theme: banana
+region: content
+weight: -3
+provider: null
+plugin: 'block_content:bdd1b51d-508b-4517-8f29-8f4daa840533'
+settings:
+  id: 'block_content:bdd1b51d-508b-4517-8f29-8f4daa840533'
+  label: 'Publi artículo abajo'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

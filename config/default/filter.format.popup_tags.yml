@@ -1,0 +1,14 @@
+uuid: 2b2baffd-4b05-43d5-accf-15129b3e11a2
+langcode: es
+status: true
+dependencies: {  }
+name: 'Popup tags'
+format: popup_tags
+weight: -6
+filters:
+  filter_null:
+    id: filter_null
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

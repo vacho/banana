@@ -1,0 +1,23 @@
+uuid: e4379415-d7bc-4263-9b5d-18aee48094b5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_software_libre
+    - node.type.programa
+id: node.programa.field_software_libre
+field_name: field_software_libre
+entity_type: node
+bundle: programa
+label: 'Software Libre'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Software Libre'
+  off_label: ''
+field_type: boolean

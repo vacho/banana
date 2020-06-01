@@ -1,0 +1,14 @@
+uuid: 0d3c9123-06b6-4861-b46c-99cfa7dfa534
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.article_creator
+  module:
+    - user
+id: user_add_role_action.article_creator
+label: 'Añade el rol Article creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: article_creator

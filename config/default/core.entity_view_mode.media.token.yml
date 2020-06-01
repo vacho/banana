@@ -1,0 +1,14 @@
+uuid: ffe171e3-ebc5-46ca-97bc-956a91f9e801
+langcode: en
+status: true
+dependencies:
+  module:
+    - lightning_core
+    - media
+third_party_settings:
+  lightning_core:
+    internal: true
+id: media.token
+label: Token
+targetEntityType: media
+cache: true

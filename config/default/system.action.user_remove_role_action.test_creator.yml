@@ -1,0 +1,14 @@
+uuid: c5f38530-e68f-4876-ac7d-ed4ad3e564d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.test_creator
+  module:
+    - user
+id: user_remove_role_action.test_creator
+label: 'Elimina el rol test creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: test_creator

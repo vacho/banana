@@ -1,0 +1,14 @@
+uuid: 8eb23b7b-a400-4ec6-b623-7842cf6437f9
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.forum_reviewer
+  module:
+    - user
+id: user_remove_role_action.forum_reviewer
+label: 'Elimina el rol Tema del foro reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: forum_reviewer

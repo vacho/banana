@@ -1,0 +1,19 @@
+uuid: 27a70c2a-d0e0-4707-8a09-da0872089ddb
+langcode: es
+status: true
+dependencies: {  }
+id: test_reviewer
+label: 'test reviewer'
+weight: 16
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any test content'
+  - 'edit any test content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

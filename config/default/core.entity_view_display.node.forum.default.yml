@@ -1,0 +1,41 @@
+uuid: 47833211-91f9-4f2d-8e47-e00cc7e6e350
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.forum.body
+    - field.field.node.forum.field_metatag
+    - field.field.node.forum.taxonomy_forums
+    - node.type.forum
+  module:
+    - text
+    - user
+id: node.forum.default
+targetEntityType: node
+bundle: forum
+mode: default
+content:
+  body:
+    label: hidden
+    weight: 11
+    type: text_default
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  taxonomy_forums:
+    label: above
+    weight: 10
+    type: entity_reference_label
+    settings:
+      link: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_metatag: true
+  langcode: true
+  search_api_excerpt: true

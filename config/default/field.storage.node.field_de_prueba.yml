@@ -1,0 +1,18 @@
+uuid: 7fde46fb-a5dd-4c5a-8d27-4d241b169f54
+langcode: und
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_de_prueba
+field_name: field_de_prueba
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

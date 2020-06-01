@@ -1,0 +1,21 @@
+uuid: 4bb50e7f-ec04-455c-be99-d863280b9820
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_metatag
+    - node.type.art_culo_oculto
+  module:
+    - metatag
+id: node.art_culo_oculto.field_metatag
+field_name: field_metatag
+entity_type: node
+bundle: art_culo_oculto
+label: 'Meta tags'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag

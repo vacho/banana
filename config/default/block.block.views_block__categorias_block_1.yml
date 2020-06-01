@@ -1,0 +1,30 @@
+uuid: e07f464a-d20c-415e-a813-3cc02d1132c0
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.categorias
+  module:
+    - system
+    - views
+  theme:
+    - banana
+id: views_block__categorias_block_1
+theme: banana
+region: sidebar_second
+weight: -14
+provider: null
+plugin: 'views_block:categorias-block_1'
+settings:
+  id: 'views_block:categorias-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

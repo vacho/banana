@@ -1,0 +1,41 @@
+uuid: 76e74211-2384-4bb9-8e4e-99d6b24f0876
+langcode: es
+status: false
+dependencies:
+  module:
+    - adsense
+    - ctools
+    - node
+  theme:
+    - banana
+id: customsearch
+theme: banana
+region: highlighted
+weight: -10
+provider: null
+plugin: adsense_cse_ad_block
+settings:
+  id: adsense_cse_ad_block
+  label: 'Searcher google'
+  provider: adsense
+  label_display: '0'
+  ad_slot: pub-2479104003645562
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      page: page
+      programa: programa
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      page: page
+      programa: programa
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

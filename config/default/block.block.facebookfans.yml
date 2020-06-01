@@ -1,0 +1,31 @@
+uuid: 1e5ede24-dbff-428e-b463-f45039d6365e
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ac792367-9d4a-4356-aa62-951e3914a377'
+  module:
+    - block_content
+    - system
+  theme:
+    - banana
+id: facebookfans
+theme: banana
+region: sidebar_second
+weight: -12
+provider: null
+plugin: 'block_content:ac792367-9d4a-4356-aa62-951e3914a377'
+settings:
+  id: 'block_content:ac792367-9d4a-4356-aa62-951e3914a377'
+  label: 'Facebook Fans'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

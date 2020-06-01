@@ -1,0 +1,22 @@
+uuid: f3f2f7b1-e2f5-455f-b47c-3d20e00d7a00
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - banana
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: banana_help
+theme: banana
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  provider: help
+  label_display: '0'
+visibility: {  }

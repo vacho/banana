@@ -1,0 +1,34 @@
+uuid: 3f661cff-017e-4e64-8c65-140240d721dc
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:text:8aea7211-ea22-4b40-a2da-da01d56458c8'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - banana
+id: publiarticulo
+theme: banana
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:8aea7211-ea22-4b40-a2da-da01d56458c8'
+settings:
+  id: 'block_content:8aea7211-ea22-4b40-a2da-da01d56458c8'
+  label: 'Publi artículo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      article: article
+      programa: programa
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

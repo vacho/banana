@@ -1,0 +1,19 @@
+uuid: 08024ed5-acc1-4f96-a210-5ace99c29671
+langcode: und
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_link_windows
+field_name: field_link_windows
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

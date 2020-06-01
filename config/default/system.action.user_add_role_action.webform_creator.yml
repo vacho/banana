@@ -1,0 +1,14 @@
+uuid: b834c50e-016d-4e6d-9a76-73efdda4ff50
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.webform_creator
+  module:
+    - user
+id: user_add_role_action.webform_creator
+label: 'Añade el rol Webform creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: webform_creator

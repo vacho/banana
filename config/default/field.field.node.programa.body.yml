@@ -1,0 +1,23 @@
+uuid: 0b878047-e366-4799-83e0-68a1dc558328
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.programa
+  module:
+    - text
+id: node.programa.body
+field_name: body
+entity_type: node
+bundle: programa
+label: Body
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,23 @@
+uuid: a4427976-4fb1-4716-af40-defb72d7c8e9
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_linux_tot
+    - node.type.programa
+  module:
+    - link
+id: node.programa.field_link_linux_tot
+field_name: field_link_linux_tot
+entity_type: node
+bundle: programa
+label: 'Link Linux'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

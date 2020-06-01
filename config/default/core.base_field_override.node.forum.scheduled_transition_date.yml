@@ -1,0 +1,20 @@
+uuid: a63afab6-516c-4854-81a9-c8416b40d665
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.forum
+  module:
+    - datetime
+id: node.forum.scheduled_transition_date
+field_name: scheduled_transition_date
+entity_type: node
+bundle: forum
+label: 'Scheduled transition date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

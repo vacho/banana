@@ -1,0 +1,9 @@
+display:
+  default:
+    display_options:
+      title: 'Spotlight articles'
+      header:
+        area:
+          content:
+            value: "<h2><a href=\"/news-software-by-professional-areas\">Best compilations of free software</a></h2>\r\n"
+            format: full_html

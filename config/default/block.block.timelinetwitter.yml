@@ -1,0 +1,31 @@
+uuid: 283a1128-4a29-419f-9bc4-b9ba6642e68e
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3e6a76ed-f379-4773-8d69-1cca3daeafab'
+  module:
+    - block_content
+    - system
+  theme:
+    - banana
+id: timelinetwitter
+theme: banana
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'block_content:3e6a76ed-f379-4773-8d69-1cca3daeafab'
+settings:
+  id: 'block_content:3e6a76ed-f379-4773-8d69-1cca3daeafab'
+  label: 'Follow us on Twitter'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

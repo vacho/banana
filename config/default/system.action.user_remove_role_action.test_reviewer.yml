@@ -1,0 +1,14 @@
+uuid: bfbb56f6-ebc4-4c01-bb88-45fa2a4d22b6
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.test_reviewer
+  module:
+    - user
+id: user_remove_role_action.test_reviewer
+label: 'Elimina el rol test reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: test_reviewer

@@ -1,0 +1,14 @@
+uuid: ef75e13d-6ec0-492f-85cc-ffc066ca5a96
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.programa_creator
+  module:
+    - user
+id: user_remove_role_action.programa_creator
+label: 'Elimina el rol Programa creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: programa_creator

@@ -1,0 +1,19 @@
+uuid: 5e5b01b6-031d-4c79-83f5-336c929d666c
+langcode: es
+status: true
+dependencies: {  }
+id: forum_reviewer
+label: 'Tema del foro reviewer'
+weight: 12
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any forum content'
+  - 'edit any forum content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

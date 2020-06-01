@@ -1,0 +1,22 @@
+uuid: 584cde96-2214-4b6d-9438-b6926722868a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - banana
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: banana_local_tasks
+theme: banana
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

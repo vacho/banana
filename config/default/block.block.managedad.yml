@@ -1,0 +1,28 @@
+uuid: bcfc1ddf-b520-4c27-ad5f-894aef2bb39c
+langcode: es
+status: true
+dependencies:
+  module:
+    - adsense
+  theme:
+    - banana
+id: managedad
+theme: banana
+region: content
+weight: -15
+provider: null
+plugin: adsense_managed_ad_block
+settings:
+  id: adsense_managed_ad_block
+  label: 'Publi destacada'
+  provider: adsense
+  label_display: '0'
+  ad_slot: '3908497732'
+  ad_format: responsive
+  ad_width: null
+  ad_height: null
+  ad_shape:
+    auto: auto
+  ad_layout_key: ''
+  ad_align: center
+visibility: {  }

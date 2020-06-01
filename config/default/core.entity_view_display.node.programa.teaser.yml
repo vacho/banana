@@ -1,0 +1,77 @@
+uuid: dba10460-c107-4b7d-b42c-429c8525fb99
+langcode: es
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.programa.body
+    - field.field.node.programa.field_autor
+    - field.field.node.programa.field_categoria
+    - field.field.node.programa.field_comentarios
+    - field.field.node.programa.field_de_prueba
+    - field.field.node.programa.field_demo
+    - field.field.node.programa.field_gratis
+    - field.field.node.programa.field_idiomes
+    - field.field.node.programa.field_imagen
+    - field.field.node.programa.field_link_general
+    - field.field.node.programa.field_link_linux
+    - field.field.node.programa.field_link_linux_64
+    - field.field.node.programa.field_link_linux_tot
+    - field.field.node.programa.field_link_mac
+    - field.field.node.programa.field_link_windows
+    - field.field.node.programa.field_link_windows_64
+    - field.field.node.programa.field_link_windows_tot
+    - field.field.node.programa.field_manual
+    - field.field.node.programa.field_metatag
+    - field.field.node.programa.field_nombre_del_programa
+    - field.field.node.programa.field_online
+    - field.field.node.programa.field_software_libre
+    - field.field.node.programa.field_votacion
+    - node.type.programa
+  module:
+    - text
+    - user
+id: node.programa.teaser
+targetEntityType: node
+bundle: programa
+mode: teaser
+content:
+  body:
+    label: hidden
+    weight: 0
+    type: text_summary_or_trimmed
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  addtoany: true
+  field_autor: true
+  field_categoria: true
+  field_comentarios: true
+  field_de_prueba: true
+  field_demo: true
+  field_gratis: true
+  field_idiomes: true
+  field_imagen: true
+  field_link_general: true
+  field_link_linux: true
+  field_link_linux_64: true
+  field_link_linux_tot: true
+  field_link_mac: true
+  field_link_windows: true
+  field_link_windows_64: true
+  field_link_windows_tot: true
+  field_manual: true
+  field_metatag: true
+  field_nombre_del_programa: true
+  field_online: true
+  field_software_libre: true
+  field_votacion: true
+  langcode: true
+  search_api_excerpt: true

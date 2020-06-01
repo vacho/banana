@@ -1,0 +1,25 @@
+uuid: c90e86cd-ce8a-4887-abe9-900fce9311ed
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:text:a7a92851-d450-4194-85a1-a181f3b2cf3d'
+  module:
+    - block_content
+  theme:
+    - banana
+id: publiderechaabajo
+theme: banana
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:a7a92851-d450-4194-85a1-a181f3b2cf3d'
+settings:
+  id: 'block_content:a7a92851-d450-4194-85a1-a181f3b2cf3d'
+  label: 'Publi derecha abajo'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

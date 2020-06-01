@@ -1,0 +1,14 @@
+uuid: 299d2844-d075-4dc4-8c90-64f23c20adf0
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.programa_reviewer
+  module:
+    - user
+id: user_add_role_action.programa_reviewer
+label: 'Añade el rol Programa reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: programa_reviewer

@@ -1,0 +1,30 @@
+uuid: ed2decd8-9b47-4afb-aa8b-9f1ca2dbadcd
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.articulos_destacados
+  module:
+    - system
+    - views
+  theme:
+    - banana
+id: views_block__articulos_destacados_block_1
+theme: banana
+region: content
+weight: -10
+provider: null
+plugin: 'views_block:articulos_destacados-block_1'
+settings:
+  id: 'views_block:articulos_destacados-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

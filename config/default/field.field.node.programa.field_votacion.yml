@@ -1,0 +1,32 @@
+uuid: c9daa6d3-6b77-43bb-b156-d496029f771e
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_votacion
+    - node.type.programa
+  module:
+    - fivestar
+id: node.programa.field_votacion
+field_name: field_votacion
+entity_type: node
+bundle: programa
+label: votacion
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    rating: '60'
+    target: null
+default_value_callback: ''
+settings:
+  stars: '5'
+  allow_clear: 1
+  allow_revote: 1
+  allow_ownvote: 1
+  rated_while: viewing
+  enable_voting_target: 0
+  target_bridge_field: ''
+  target_fivestar_field: ''
+field_type: fivestar

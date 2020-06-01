@@ -1,0 +1,16 @@
+uuid: 342674f1-b31c-4e1d-8c6e-dcc8ed84fe03
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 4xRLPoyhr5ynv4NK0SXc_NfjeWzkXN2PaV9zAmNIH3s
+id: layout_manager
+label: 'Layout manager'
+weight: 2
+is_admin: false
+permissions:
+  - 'administer node display'
+  - 'administer panelizer node landing_page defaults'
+  - 'administer panelizer node page defaults'
+  - 'configure any layout'
+  - 'display eu cookie compliance popup'

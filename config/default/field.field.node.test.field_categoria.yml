@@ -1,0 +1,26 @@
+uuid: 8c8bedd9-08b9-4a06-a310-c407e81cfc90
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.test
+    - taxonomy.vocabulary.tags
+id: node.test.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: test
+label: Categoria
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      tags: tags
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

@@ -1,0 +1,30 @@
+uuid: e5dbbaf3-824b-4a5b-b5c6-952ee3cb3b5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.tags
+  module:
+    - system
+    - views
+  theme:
+    - banana
+id: views_block__tags_block_1
+theme: banana
+region: content
+weight: -11
+provider: null
+plugin: 'views_block:tags-block_1'
+settings:
+  id: 'views_block:tags-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

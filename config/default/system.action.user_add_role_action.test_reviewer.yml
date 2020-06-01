@@ -1,0 +1,14 @@
+uuid: 3a4278d7-d2a5-4669-a380-499e001b14fe
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.test_reviewer
+  module:
+    - user
+id: user_add_role_action.test_reviewer
+label: 'Añade el rol test reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: test_reviewer

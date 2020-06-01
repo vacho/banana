@@ -1,0 +1,14 @@
+uuid: a94b3d8a-c5bc-476d-aad2-3168c4d4e74a
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.forum_creator
+  module:
+    - user
+id: user_add_role_action.forum_creator
+label: 'Añade el rol Tema del foro creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: forum_creator

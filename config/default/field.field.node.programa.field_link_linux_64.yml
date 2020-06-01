@@ -1,0 +1,23 @@
+uuid: 2b10bdd1-88d7-459f-8de5-589487ba6a36
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_linux_64
+    - node.type.programa
+  module:
+    - link
+id: node.programa.field_link_linux_64
+field_name: field_link_linux_64
+entity_type: node
+bundle: programa
+label: 'Link IPhone'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

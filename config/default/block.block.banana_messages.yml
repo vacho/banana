@@ -1,0 +1,22 @@
+uuid: acaf49fb-9751-4ed3-a4a5-c3dd2230cef9
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - banana
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: banana_messages
+theme: banana
+region: highlighted
+weight: -12
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  provider: system
+  label_display: '0'
+visibility: {  }

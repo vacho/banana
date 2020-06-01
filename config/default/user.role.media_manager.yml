@@ -1,0 +1,17 @@
+uuid: d5239b81-e5f7-41ec-bfe2-14f075e315a3
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: L47HI71RjV8g6EyXHqdUuAOtEFv7iUxYDREF-OSBMUE
+id: media_manager
+label: 'Media manager'
+weight: 6
+is_admin: false
+permissions:
+  - 'access ckeditor_media_browser entity browser pages'
+  - 'access media overview'
+  - 'access media_browser entity browser pages'
+  - 'administer media'
+  - 'administer media bundles'
+  - 'display eu cookie compliance popup'

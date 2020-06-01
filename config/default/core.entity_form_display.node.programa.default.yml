@@ -1,0 +1,300 @@
+uuid: 2723ab22-783d-440a-aba1-b81bda3bd964
+langcode: es
+status: true
+dependencies:
+  config:
+    - entity_browser.browser.image_browser
+    - field.field.node.programa.body
+    - field.field.node.programa.field_autor
+    - field.field.node.programa.field_categoria
+    - field.field.node.programa.field_comentarios
+    - field.field.node.programa.field_de_prueba
+    - field.field.node.programa.field_demo
+    - field.field.node.programa.field_gratis
+    - field.field.node.programa.field_idiomes
+    - field.field.node.programa.field_imagen
+    - field.field.node.programa.field_link_general
+    - field.field.node.programa.field_link_linux
+    - field.field.node.programa.field_link_linux_64
+    - field.field.node.programa.field_link_linux_tot
+    - field.field.node.programa.field_link_mac
+    - field.field.node.programa.field_link_windows
+    - field.field.node.programa.field_link_windows_64
+    - field.field.node.programa.field_link_windows_tot
+    - field.field.node.programa.field_manual
+    - field.field.node.programa.field_metatag
+    - field.field.node.programa.field_nombre_del_programa
+    - field.field.node.programa.field_online
+    - field.field.node.programa.field_software_libre
+    - field.field.node.programa.field_votacion
+    - node.type.programa
+  module:
+    - content_moderation
+    - disqus
+    - entity_browser
+    - fivestar
+    - link
+    - metatag
+    - path
+    - text
+id: node.programa.default
+targetEntityType: node
+bundle: programa
+mode: default
+content:
+  body:
+    weight: 3
+    type: text_textarea_with_summary
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+    region: content
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_autor:
+    weight: 19
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_categoria:
+    weight: 20
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_comentarios:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: disqus_comment
+    region: content
+  field_de_prueba:
+    weight: 16
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_demo:
+    weight: 17
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_gratis:
+    weight: 15
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_idiomes:
+    weight: 21
+    type: options_buttons
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imagen:
+    type: entity_browser_file
+    weight: 4
+    settings:
+      entity_browser: image_browser
+      field_widget_edit: true
+      field_widget_remove: true
+      view_mode: default
+      preview_image_style: thumbnail
+      open: true
+      field_widget_replace: false
+      selection_mode: selection_append
+    region: content
+    third_party_settings: {  }
+  field_link_general:
+    weight: 6
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_linux:
+    weight: 12
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_linux_64:
+    weight: 13
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_linux_tot:
+    weight: 11
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_mac:
+    weight: 10
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_windows:
+    weight: 8
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_windows_64:
+    weight: 9
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_link_windows_tot:
+    weight: 7
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_manual:
+    weight: 22
+    type: link_default
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    region: content
+  field_metatag:
+    weight: 121
+    settings:
+      sidebar: true
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_nombre_del_programa:
+    weight: 1
+    type: string_textfield
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  field_online:
+    weight: 18
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_software_libre:
+    weight: 14
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    third_party_settings: {  }
+    region: content
+  field_votacion:
+    weight: 123
+    settings:
+      display_format: average
+      text_format: none
+      fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
+    third_party_settings: {  }
+    type: fivestar_stars
+    region: content
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  moderation_state:
+    type: moderation_state_default
+    weight: 100
+    settings: {  }
+    region: content
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 30
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 15
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 120
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 16
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  uid:
+    type: entity_reference_autocomplete
+    weight: 5
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    region: content
+    third_party_settings: {  }
+  url_redirects:
+    weight: 50
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

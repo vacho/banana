@@ -1,0 +1,8 @@
+uuid: 1a1d8ec9-6d74-478c-9ffe-719473fd5d38
+langcode: es
+status: true
+dependencies: {  }
+name: Foros
+vid: forums
+description: 'Vocabulario de navegación de foro'
+weight: -10

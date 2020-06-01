@@ -1,0 +1,14 @@
+uuid: e95d34d1-2653-48fa-b2f4-c08f51e648cf
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.article_reviewer
+  module:
+    - user
+id: user_remove_role_action.article_reviewer
+label: 'Elimina el rol Article reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: article_reviewer

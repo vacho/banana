@@ -1,0 +1,18 @@
+uuid: a57bc49f-d6af-48ff-a22b-c78642e7ee5d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.programa
+id: node.programa.title
+field_name: title
+entity_type: node
+bundle: programa
+label: 'Título (no el nombre del programa)'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

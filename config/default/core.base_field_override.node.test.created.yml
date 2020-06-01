@@ -1,0 +1,18 @@
+uuid: d7989313-7e65-40ce-bc2a-df7c398305ca
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.test
+id: node.test.created
+field_name: created
+entity_type: node
+bundle: test
+label: Fecha
+description: 'La fecha en que el nodo fue creado.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

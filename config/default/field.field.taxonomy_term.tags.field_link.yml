@@ -1,0 +1,23 @@
+uuid: 600aa522-0f00-42c5-aa07-936bfc35b2e4
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_link
+    - taxonomy.vocabulary.tags
+  module:
+    - link
+id: taxonomy_term.tags.field_link
+field_name: field_link
+entity_type: taxonomy_term
+bundle: tags
+label: Link
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 2
+field_type: link

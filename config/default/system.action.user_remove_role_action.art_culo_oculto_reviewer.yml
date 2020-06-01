@@ -1,0 +1,14 @@
+uuid: 7c06b44e-091a-4f49-bd71-c5ff81aaaf2c
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.art_culo_oculto_reviewer
+  module:
+    - user
+id: user_remove_role_action.art_culo_oculto_reviewer
+label: 'Elimina el rol Artículo oculto reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: art_culo_oculto_reviewer

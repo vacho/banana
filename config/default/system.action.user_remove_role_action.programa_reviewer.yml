@@ -1,0 +1,14 @@
+uuid: 3aa3aec2-75bf-4193-a01f-7f66ca903a08
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.programa_reviewer
+  module:
+    - user
+id: user_remove_role_action.programa_reviewer
+label: 'Elimina el rol Programa reviewer al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: programa_reviewer

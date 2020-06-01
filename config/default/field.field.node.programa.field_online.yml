@@ -1,0 +1,23 @@
+uuid: c64cdc03-3806-4e01-94c0-3f49bfdd9a41
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_online
+    - node.type.programa
+id: node.programa.field_online
+field_name: field_online
+entity_type: node
+bundle: programa
+label: Online
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Online
+  off_label: ''
+field_type: boolean

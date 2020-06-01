@@ -1,0 +1,25 @@
+uuid: 988e77c0-f5c8-44ac-bd68-2109d723a032
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:text:adcf731e-3d8f-4c73-84c2-dc14a93bd9f9'
+  module:
+    - block_content
+  theme:
+    - banana
+id: publitodosabajo
+theme: banana
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:adcf731e-3d8f-4c73-84c2-dc14a93bd9f9'
+settings:
+  id: 'block_content:adcf731e-3d8f-4c73-84c2-dc14a93bd9f9'
+  label: 'Publi todos abajo'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

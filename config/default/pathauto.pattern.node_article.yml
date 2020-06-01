@@ -1,0 +1,21 @@
+uuid: 1e57d16a-3a72-4ec6-afe1-5b74c7c0e06b
+langcode: es
+status: true
+dependencies:
+  module:
+    - node
+id: node_article
+label: 'Contenido - Article'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  -
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+selection_logic: and
+weight: 0
+relationships: {  }

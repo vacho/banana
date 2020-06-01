@@ -1,0 +1,23 @@
+uuid: 2e5b18e4-d81b-48a9-b0a2-768058629b69
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_demo
+    - node.type.programa
+id: node.programa.field_demo
+field_name: field_demo
+entity_type: node
+bundle: programa
+label: Demo
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Demo
+  off_label: ''
+field_type: boolean

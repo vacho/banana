@@ -1,0 +1,25 @@
+uuid: 2d4dc06d-8950-429a-b066-6c5417b31182
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:text:56a72dc8-192b-4586-b696-2f17b38bb29f'
+  module:
+    - block_content
+  theme:
+    - banana
+id: publiadaptablelateralarriba
+theme: banana
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'block_content:56a72dc8-192b-4586-b696-2f17b38bb29f'
+settings:
+  id: 'block_content:56a72dc8-192b-4586-b696-2f17b38bb29f'
+  label: 'Publi adaptable lateral arriba'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: d8ab2e6e-7623-431a-a7a2-b0b40b6faf76
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.programas_mas_vistos_recientemente
+  module:
+    - system
+    - views
+  theme:
+    - banana
+id: views_block__programas_mas_vistos_recientemente_block_1
+theme: banana
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:programas_mas_vistos_recientemente-block_1'
+settings:
+  id: 'views_block:programas_mas_vistos_recientemente-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

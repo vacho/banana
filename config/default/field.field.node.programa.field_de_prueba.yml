@@ -1,0 +1,23 @@
+uuid: 8c9ea9a8-d2da-4622-8195-3c1d8dc85fb6
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_de_prueba
+    - node.type.programa
+id: node.programa.field_de_prueba
+field_name: field_de_prueba
+entity_type: node
+bundle: programa
+label: 'De prueba'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'De prueba'
+  off_label: ''
+field_type: boolean

@@ -1,0 +1,22 @@
+uuid: e3f3a7c7-ec6e-4d85-b1f4-35ffd4fb6b47
+langcode: es
+status: true
+dependencies:
+  module:
+    - consumers
+id: consumer.consumer.confidential
+field_name: confidential
+entity_type: consumer
+bundle: consumer
+label: 'Is Confidential?'
+description: 'A boolean indicating whether the client secret needs to be validated or not.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

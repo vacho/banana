@@ -1,0 +1,18 @@
+uuid: e4a48140-5899-45c3-b1be-a66a8c3ed1b5
+langcode: es
+status: true
+dependencies:
+  module:
+    - user
+id: user.user.metatag
+field_name: metatag
+entity_type: user
+bundle: user
+label: 'Meta etiquetas'
+description: 'Las metaetiquetas de la entidad.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

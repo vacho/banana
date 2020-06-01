@@ -1,0 +1,24 @@
+uuid: 047265f2-76fc-455c-81a8-1adaf174d208
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.page
+_core:
+  default_config_hash: Hi734__ekKUYeOgRdlfGIjEz1Mb8HYM4laYu0l_5Q88
+id: node.page.status
+field_name: status
+entity_type: node
+bundle: page
+label: 'Publishing status'
+description: 'A boolean indicating whether the node is published.'
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Activado
+  off_label: Desactivado
+field_type: boolean

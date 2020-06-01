@@ -1,0 +1,26 @@
+uuid: 2022cb39-445c-4f90-b8f8-4bcbe31e6e76
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_idiomes
+    - node.type.programa
+    - taxonomy.vocabulary.idioma
+id: node.programa.field_idiomes
+field_name: field_idiomes
+entity_type: node
+bundle: programa
+label: Idiomes
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      idioma: idioma
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

@@ -1,0 +1,26 @@
+uuid: 490c29f2-b182-404b-a744-4d31cef578d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_categoria
+    - node.type.programa
+    - taxonomy.vocabulary.tags
+id: node.programa.field_categoria
+field_name: field_categoria
+entity_type: node
+bundle: programa
+label: Categoria
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler_settings:
+    sort:
+      field: _none
+    target_bundles:
+      tags: tags
+  handler: 'default:taxonomy_term'
+field_type: entity_reference

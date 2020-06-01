@@ -1,0 +1,19 @@
+uuid: f3fae7ec-f5e2-4ed8-aaa1-71aaf4ef3bfc
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre_del_programa
+    - node.type.programa
+id: node.programa.field_nombre_del_programa
+field_name: field_nombre_del_programa
+entity_type: node
+bundle: programa
+label: 'Nombre del programa'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

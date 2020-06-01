@@ -1,0 +1,14 @@
+uuid: 4f9d6b8c-860c-4ffc-b048-9b8e9a6b4160
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.test_creator
+  module:
+    - user
+id: user_add_role_action.test_creator
+label: 'Añade el rol test creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: test_creator

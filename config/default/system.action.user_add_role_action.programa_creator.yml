@@ -1,0 +1,14 @@
+uuid: dca2898d-c2ae-4120-9b2b-71335eb137fa
+langcode: es
+status: true
+dependencies:
+  config:
+    - user.role.programa_creator
+  module:
+    - user
+id: user_add_role_action.programa_creator
+label: 'Añade el rol Programa creator al(los) usuario(s) seleccionado(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: programa_creator

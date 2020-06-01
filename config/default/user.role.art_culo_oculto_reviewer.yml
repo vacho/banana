@@ -1,0 +1,19 @@
+uuid: 4b089b12-fe53-40cc-865e-14eb65f23cc5
+langcode: es
+status: true
+dependencies: {  }
+id: art_culo_oculto_reviewer
+label: 'Artículo oculto reviewer'
+weight: 10
+is_admin: false
+permissions:
+  - 'access content overview'
+  - 'access toolbar'
+  - 'delete any art_culo_oculto content'
+  - 'edit any art_culo_oculto content'
+  - 'use editorial transition archive'
+  - 'use editorial transition publish'
+  - 'use editorial transition review'
+  - 'use moderation sidebar'
+  - 'view any unpublished content'
+  - 'view latest version'

@@ -1,0 +1,18 @@
+uuid: fcf7b79c-2cb0-4e1b-b4a1-6a279a1d3b47
+langcode: es
+status: true
+dependencies:
+  module:
+    - consumers
+id: consumer.consumer.metatag
+field_name: metatag
+entity_type: consumer
+bundle: consumer
+label: 'Meta etiquetas'
+description: 'Las metaetiquetas de la entidad.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

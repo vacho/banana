@@ -1,0 +1,11 @@
+uuid: 31e31f2c-da06-42fe-bc9a-e74b0e997046
+langcode: es
+status: true
+dependencies: {  }
+name: 'Tema del foro'
+type: forum
+description: 'Una <em>conversación de foro</em> comienza una nueva línea de discusión dentro de un foro.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
