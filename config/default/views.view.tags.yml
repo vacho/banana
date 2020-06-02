@@ -60,7 +60,7 @@ display:
         type: grid
         options:
           grouping: {  }
-          columns: 4
+          columns: 5
           automatic_width: true
           alignment: horizontal
           col_class_default: true
@@ -238,7 +238,7 @@ display:
             preserve_tags: ''
             html: false
           element_type: ''
-          element_class: ''
+          element_class: responsive-text
           element_label_type: ''
           element_label_class: ''
           element_label_colon: false

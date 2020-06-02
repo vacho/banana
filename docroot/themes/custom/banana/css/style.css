@@ -31,6 +31,10 @@ a{
   color: #4A4B50 !important;
 }
 
+#toolbar-administration a {
+  color: white !important;
+}
+
 a:hover{
   color: #313235 !important;
 }
@@ -288,7 +292,7 @@ input[type="submit"]:hover{
 /*FRONT PAGE*/
 
 .path-frontpage .content_layout {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .path-frontpage .feed-icon{
@@ -623,6 +627,14 @@ ul.links.inline li{
 }
 
 /* BLOCKS */
+.footerwidget a{
+  color: #E5E5E7 !important;
+}
+
+.footerwidget a:hover{
+  color: white !important;
+}
+
 .views-element-container H2,
 .block H2 {
   font-weight: normal;
@@ -650,6 +662,10 @@ ul.links.inline li{
 
 #block-views-block-programas-mas-vistos-recientemente-block-1 .item-list {
   text-align: left;
+}
+
+#block-views-block-programas-mas-vistos-recientemente-block-1 .views-field-field-nombre-del-programa {
+  font-weight: bold;
 }
 
 #block-views-block-programas-mas-vistos-recientemente-block-1 li {
@@ -680,4 +696,84 @@ ul.links.inline li{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#block-views-block-top-downloads-block-1 .views-field-field-imagen {
+  position: relative;
+  float: left;
+  margin-right: 1em;
+}
+
+#block-views-block-top-downloads-block-1 .views-field-field-nombre-del-programa {
+  font-weight: bold;
+}
+
+#block-views-block-top-downloads-block-1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#block-views-block-top-downloads-block-1 li {
+  margin-bottom: 50px;
+}
+
+
+#block-views-block-tags-block-1 {
+  text-align: center;
+}
+
+#block-views-block-articulos-destacados-block-1 {
+  text-align: center;
+}
+
+#block-facebookfans {
+  text-align: center;
+  padding: 0;
+}
+
+@media (max-width: 400px) {
+  /* For cellphones: */
+  .responsive-text {
+    font-size: 1rem;
+  }
+  #block-views-block-top-downloads-block-1 li {
+    margin-bottom: 40px;
+  }
+
+  .footerwidget {
+    text-align: right ;
+  }
+
+  .footerwidget ul{
+    padding: 0;
+  }
+
+  .footerwidget table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  /* For tablets: */
+  .responsive-text {
+    font-size: 1rem;
+  }
+  #block-views-block-top-downloads-block-1 li {
+    margin-bottom: 70px;
+  }
+
+  .footerwidget {
+    text-align: center;
+  }
+
+  .footerwidget ul{
+    padding: 0;
+  }
+
+  .footerwidget table {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

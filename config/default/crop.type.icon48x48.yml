@@ -1,0 +1,12 @@
+uuid: e3535e26-9f86-4c9e-9535-78b312ad3196
+langcode: en
+status: true
+dependencies: {  }
+id: icon48x48
+label: Icon48x48
+description: ''
+aspect_ratio: ''
+soft_limit_width: 48
+soft_limit_height: 48
+hard_limit_width: 48
+hard_limit_height: 48

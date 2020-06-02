@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.body
     - field.storage.node.field_image
-    - image.style.medium
+    - image.style.medium_190x190
     - image.style.thumbnail
     - node.type.article
   module:
@@ -415,7 +415,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: medium
+            image_style: medium_190x190
             image_link: content
           group_column: ''
           group_columns: {  }

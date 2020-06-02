@@ -15,7 +15,7 @@ provider: null
 plugin: 'tagclouds_block:tags'
 settings:
   id: 'tagclouds_block:tags'
-  label: 'Category Tag Cloud'
+  label: 'Categorías en tags'
   provider: tagclouds
   label_display: visible
   cache:

@@ -92,12 +92,12 @@ function banana_preprocess_page(&$variables) {
     $variables['sidebarsecond'] = 'col-md-3';
   }
   elseif (!empty($variables['page']['sidebar_first'])) {
-    $variables['contentlayout'] = 'col-md-9 ';
+    $variables['contentlayout'] = 'col-md-9';
     $variables['sidebarfirst'] = 'col-md-3';
   }
   elseif (!empty($variables['page']['sidebar_second'])) {
-    $variables['contentlayout'] = 'col-md-9';
-    $variables['sidebarsecond'] = 'col-md-3';
+    $variables['contentlayout'] = 'col-md-8';
+    $variables['sidebarsecond'] = 'col-md-4';
   }
   else {
     $variables['contentlayout'] = 'col-md-12';

@@ -17,10 +17,10 @@ provider: null
 plugin: 'views_block:tags-block_1'
 settings:
   id: 'views_block:tags-block_1'
-  label: ''
+  label: Categories
   provider: views
   label_display: visible
-  views_label: ''
+  views_label: Categories
   items_per_page: none
 visibility:
   request_path:

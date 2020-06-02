@@ -38,9 +38,9 @@ settings:
         -
           name: Media
           items:
+            - Table
             - SpecialChar
             - Blockquote
-            - DrupalImage
             - media_browser
         -
           name: Tools

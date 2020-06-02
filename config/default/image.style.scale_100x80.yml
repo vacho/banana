@@ -1,0 +1,15 @@
+uuid: 2bd7f259-39a2-44ce-9b5f-b6bf69930a60
+langcode: en
+status: true
+dependencies: {  }
+name: scale_100x80
+label: 'Scale 100x80'
+effects:
+  7b01dc90-9c00-4fc3-acf1-c744bb4ed03f:
+    uuid: 7b01dc90-9c00-4fc3-acf1-c744bb4ed03f
+    id: image_scale
+    weight: 1
+    data:
+      width: 100
+      height: 80
+      upscale: false
