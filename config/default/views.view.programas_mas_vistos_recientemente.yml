@@ -6,10 +6,9 @@ dependencies:
     - field.storage.node.field_categoria
     - field.storage.node.field_imagen
     - field.storage.node.field_nombre_del_programa
-    - image.style.medium
+    - image.style.thumbnail
     - node.type.programa
   module:
-    - blazy
     - image
     - node
     - statistics
@@ -59,12 +58,14 @@ display:
           items_per_page: 10
           offset: 0
       style:
-        type: blazy
+        type: html_list
         options:
-          style: column
-          grid: 1
-          grid_medium: null
-          grid_small: null
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+          type: ul
+          wrapper_class: item-list
+          class: ''
       row:
         type: fields
       fields:
@@ -119,7 +120,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: medium
+            image_style: thumbnail
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -297,12 +298,12 @@ display:
           group_column: target_id
           group_columns: {  }
           group_rows: true
-          delta_limit: 0
+          delta_limit: 3
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
           multi_type: separator
-          separator: ', '
+          separator: ''
           field_api_classes: false
           plugin_id: field
       filters:

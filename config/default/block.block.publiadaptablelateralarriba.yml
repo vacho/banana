@@ -18,7 +18,7 @@ settings:
   id: 'block_content:56a72dc8-192b-4586-b696-2f17b38bb29f'
   label: 'Publi adaptable lateral arriba'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

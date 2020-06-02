@@ -18,7 +18,7 @@ settings:
   id: 'block_content:af428992-5cb2-4748-a272-c684443da48f'
   label: 'Publi 300x600'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

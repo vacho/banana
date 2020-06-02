@@ -18,7 +18,7 @@ settings:
   id: 'block_content:adcf731e-3d8f-4c73-84c2-dc14a93bd9f9'
   label: 'Publi todos abajo'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

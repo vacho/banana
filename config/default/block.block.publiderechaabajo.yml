@@ -18,7 +18,7 @@ settings:
   id: 'block_content:a7a92851-d450-4194-85a1-a181f3b2cf3d'
   label: 'Publi derecha abajo'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full
