@@ -756,9 +756,9 @@ $settings['entity_update_backup'] = TRUE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'bananad8',
-  'username' => 'root',
-  'password' => 'bdServer951',
+  'database' => 'bananaso_sitioupgraded',
+  'username' => 'bananaso_user',
+  'password' => 'bdKey@098',
   'prefix' => '',
   'host' => 'localhost',
   'port' => '3306',
