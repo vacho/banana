@@ -17,10 +17,10 @@ provider: null
 plugin: 'views_block:tags-block_1'
 settings:
   id: 'views_block:tags-block_1'
-  label: Categories
+  label: 'Programas por Áreas Profesionales'
   provider: views
   label_display: visible
-  views_label: Categories
+  views_label: 'Programas por Áreas Profesionales'
   items_per_page: none
 visibility:
   request_path:
