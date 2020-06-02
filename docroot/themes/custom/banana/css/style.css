@@ -660,6 +660,10 @@ ul.links.inline li{
   text-align: left;
 }
 
+#block-views-block-programas-mas-vistos-recientemente-block-1 .views-field-field-nombre-del-programa {
+  font-weight: bold;
+}
+
 #block-views-block-programas-mas-vistos-recientemente-block-1 li {
   margin-bottom: 25px;
 }
