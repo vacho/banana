@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_categoria
     - field.storage.node.field_imagen
     - field.storage.node.field_nombre_del_programa
-    - image.style.thumbnail
+    - image.style.scale_100x80
     - node.type.programa
   module:
     - image
@@ -141,7 +141,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: thumbnail
+            image_style: scale_100x80
             image_link: content
           group_column: ''
           group_columns: {  }
@@ -319,12 +319,12 @@ display:
           group_column: target_id
           group_columns: {  }
           group_rows: true
-          delta_limit: 0
+          delta_limit: 3
           delta_offset: 0
           delta_reversed: false
           delta_first_last: false
           multi_type: separator
-          separator: ', '
+          separator: ' '
           field_api_classes: false
           plugin_id: field
       filters:
