@@ -288,7 +288,7 @@ input[type="submit"]:hover{
 /*FRONT PAGE*/
 
 .path-frontpage .content_layout {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .path-frontpage .feed-icon{
@@ -692,6 +692,26 @@ ul.links.inline li{
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#block-views-block-top-downloads-block-1 .views-field-field-imagen {
+  position: relative;
+  float: left;
+  margin-right: 1em;
+}
+
+#block-views-block-top-downloads-block-1 .views-field-field-nombre-del-programa {
+  font-weight: bold;
+}
+
+#block-views-block-top-downloads-block-1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#block-views-block-top-downloads-block-1 li {
+  margin-bottom: 10px;
 }
 
 .responsive-text {
