@@ -623,6 +623,14 @@ ul.links.inline li{
 }
 
 /* BLOCKS */
+.footerwidget a{
+  color: #E5E5E7 !important;
+}
+
+.footerwidget a:hover{
+  color: white !important;
+}
+
 .views-element-container H2,
 .block H2 {
   font-weight: normal;
