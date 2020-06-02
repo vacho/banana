@@ -8,7 +8,7 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
-/docroot/sites/default/settings.php
+settings.php
 
 # Ignore Composer-managed dependencies.
 vendor/
