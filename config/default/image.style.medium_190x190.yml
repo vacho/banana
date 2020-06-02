@@ -1,0 +1,15 @@
+uuid: 90fb2cc1-a2ae-49f0-bd0a-8d56de2b39aa
+langcode: en
+status: true
+dependencies: {  }
+name: medium_190x190
+label: 'Medium 190x190'
+effects:
+  31588a62-1d3a-4533-8c8b-faf3c3ffbc2c:
+    uuid: 31588a62-1d3a-4533-8c8b-faf3c3ffbc2c
+    id: image_scale
+    weight: 1
+    data:
+      width: 190
+      height: 190
+      upscale: false

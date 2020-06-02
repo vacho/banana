@@ -5,7 +5,7 @@ dependencies:
   config:
     - field.storage.node.field_imagen
     - field.storage.node.field_nombre_del_programa
-    - image.style.thumbnail
+    - image.style.scale_100x80
     - node.type.programa
   module:
     - image
@@ -112,7 +112,7 @@ display:
           click_sort_column: target_id
           type: image
           settings:
-            image_style: thumbnail
+            image_style: scale_100x80
             image_link: content
           group_column: ''
           group_columns: {  }

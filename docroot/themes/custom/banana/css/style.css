@@ -31,6 +31,10 @@ a{
   color: #4A4B50 !important;
 }
 
+.toolbar-tab a {
+  color: white !important;
+}
+
 a:hover{
   color: #313235 !important;
 }
@@ -711,9 +715,65 @@ ul.links.inline li{
 }
 
 #block-views-block-top-downloads-block-1 li {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
-.responsive-text {
-  font-size: 1rem;
+
+#block-views-block-tags-block-1 {
+  text-align: center;
+}
+
+#block-views-block-articulos-destacados-block-1 {
+  text-align: center;
+}
+
+#block-facebookfans {
+  text-align: center;
+  padding: 0;
+}
+
+@media (max-width: 400px) {
+  /* For cellphones: */
+  .responsive-text {
+    font-size: 1rem;
+  }
+  #block-views-block-top-downloads-block-1 li {
+    margin-bottom: 40px;
+  }
+
+  .footerwidget {
+    text-align: right ;
+  }
+
+  .footerwidget ul{
+    padding: 0;
+  }
+
+  .footerwidget table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+  /* For tablets: */
+  .responsive-text {
+    font-size: 1rem;
+  }
+  #block-views-block-top-downloads-block-1 li {
+    margin-bottom: 70px;
+  }
+
+  .footerwidget {
+    text-align: center;
+  }
+
+  .footerwidget ul{
+    padding: 0;
+  }
+
+  .footerwidget table {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

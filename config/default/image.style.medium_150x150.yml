@@ -1,0 +1,15 @@
+uuid: 47e8f917-0256-41a6-be0a-33a5e79c99ad
+langcode: en
+status: true
+dependencies: {  }
+name: medium_150x150
+label: 'Medium 150x150'
+effects:
+  80e0c49f-c919-48f8-96a7-0bd1ad2ce1c4:
+    uuid: 80e0c49f-c919-48f8-96a7-0bd1ad2ce1c4
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 150
+      anchor: center-center
