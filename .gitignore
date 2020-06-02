@@ -9,6 +9,7 @@
 /docroot/themes/contrib
 /docroot/sites/default/files
 settings.php
+services.yml
 
 # Ignore Composer-managed dependencies.
 vendor/
