@@ -11,7 +11,7 @@ dependencies:
 id: footer
 theme: banana
 region: footer_third
-weight: 0
+weight: -5
 provider: null
 plugin: 'block_content:7c5db8f5-e6fb-4209-a846-1e7b2285be95'
 settings:

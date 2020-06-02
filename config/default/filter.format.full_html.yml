@@ -55,7 +55,7 @@ filters:
     status: true
     weight: -10
     settings:
-      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p class> <br> <h1> <pre> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button title alt><drupal-media data-entity-type data-entity-uuid>'
+      allowed_html: '<a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <s> <sup> <sub> <img src alt data-entity-type data-entity-uuid data-align data-caption> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p class> <br> <h1> <pre> <drupal-entity data-entity-type data-entity-uuid data-entity-embed-display data-entity-embed-display-settings data-align data-caption data-embed-button title alt><drupal-media data-entity-type data-entity-uuid><div class>'
       filter_html_help: true
       filter_html_nofollow: false
   filter_align:
@@ -77,10 +77,10 @@ filters:
     weight: 100
     settings:
       default_view_mode: default
+      allowed_media_types:
+        image: image
+        video: video
       allowed_view_modes:
         default: default
         embedded: embedded
         full: full
-      allowed_media_types:
-        image: image
-        video: video

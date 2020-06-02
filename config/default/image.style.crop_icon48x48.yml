@@ -1,0 +1,17 @@
+uuid: 4bf1224a-5adf-4e1e-8e29-c13fa6379d31
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.icon48x48
+  module:
+    - crop
+name: crop_icon48x48
+label: 'Cropped: Icon48x48'
+effects:
+  d7bd0b6f-c1dd-44dc-b728-f855a1cc13fd:
+    uuid: d7bd0b6f-c1dd-44dc-b728-f855a1cc13fd
+    id: crop_crop
+    weight: null
+    data:
+      crop_type: icon48x48

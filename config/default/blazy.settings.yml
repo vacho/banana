@@ -1,8 +1,8 @@
 admin_css: false
-fx: ''
+fx: blur
 noscript: false
 responsive_image: false
-one_pixel: false
+one_pixel: true
 placeholder: ''
 extras: {  }
 blazy:

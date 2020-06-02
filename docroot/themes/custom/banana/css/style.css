@@ -689,3 +689,7 @@ ul.links.inline li{
   margin: 0;
   padding: 0;
 }
+
+.responsive-text {
+  font-size: 1rem;
+}

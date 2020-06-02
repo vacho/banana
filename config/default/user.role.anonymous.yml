@@ -5,14 +5,18 @@ dependencies: {  }
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
-label: 'Usuario anónimo'
+label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
+  - 'access ckeditor_media_browser entity browser pages'
   - 'access comments'
   - 'access content'
+  - 'access media overview'
+  - 'access media_browser entity browser pages'
   - 'display EU Cookie Compliance popup'
   - 'rate content'
   - 'search content'
   - 'use text format filtered_html'
   - 'view disqus comments'
+  - 'view media'
