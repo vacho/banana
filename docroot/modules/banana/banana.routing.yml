@@ -1,0 +1,7 @@
+banana.example:
+  path: '/banana/controller'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\banana\Controller\BananaController::build'
+  requirements:
+    _permission: 'administer site configuration'
