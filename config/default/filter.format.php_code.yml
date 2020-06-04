@@ -9,6 +9,12 @@ name: 'PHP code'
 format: php_code
 weight: 0
 filters:
+  php_code:
+    id: php_code
+    provider: php
+    status: true
+    weight: 0
+    settings: {  }
   media_embed:
     id: media_embed
     provider: media
@@ -18,9 +24,3 @@ filters:
       default_view_mode: default
       allowed_media_types: {  }
       allowed_view_modes: {  }
-  php_code:
-    id: php_code
-    provider: php
-    status: true
-    weight: 0
-    settings: {  }
