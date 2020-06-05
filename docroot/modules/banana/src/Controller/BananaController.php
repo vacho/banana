@@ -12,9 +12,9 @@ use mysql_xdevapi\Exception;
 class BananaController extends ControllerBase {
 
   /**
-   * Builds the response.
+   * TagsSpanishToEnglish.
    */
-  public function build() {
+  public function tagsSpanishToEnglish() {
 
     $build['content'] = [
       '#type' => 'item',
@@ -70,4 +70,51 @@ class BananaController extends ControllerBase {
     return $build;
   }
 
+  public function tagsD7ToD8() {
+    // Switch to external database
+    \Drupal\Core\Database\Database::setActiveConnection('external');
+
+    $db = \Drupal\Core\Database\Database::getConnection();
+    $category_ids = [
+      ['id_d7' => 109, 'id_d8' => 319, 'nodes_d7' => []],
+      ['id_d7' => 110, 'id_d8' => 320, 'nodes_d7' => []],
+      ['id_d7' => 111, 'id_d8' => 318, 'nodes_d7' => []],
+      ['id_d7' => 112, 'id_d8' => 322, 'nodes_d7' => []],
+      ['id_d7' => 113, 'id_d8' => 321, 'nodes_d7' => []],
+      ['id_d7' => 114, 'id_d8' => 307, 'nodes_d7' => []],
+      ['id_d7' => 115, 'id_d8' => 308, 'nodes_d7' => []],
+     ];
+    $i = 0;
+
+    // Get nodes d7 for category_ids.
+    foreach ($category_ids as $cid) {
+      $results = $db->query("SELECT entity_id FROM field_data_field_categoria WHERE field_categoria_tid = :c_id", [':c_id' => $cid['id_d7']]);
+      $node_ids = [];
+      foreach($results as $item) {
+        $node_ids[]= $item->entity_id;
+      }
+      $category_ids[$i]['nodes_d7'] = $node_ids;
+      $i++;
+    }
+
+    // Set equivalent for d8 nodes.
+    \Drupal\Core\Database\Database::setActiveConnection();
+    foreach ($category_ids as $cid) {
+      foreach ($cid['nodes_d7'] as $node_ids) {
+        if ($node = Node::load($node_ids)) {
+          //dpm($node->getTitle() . "--" . $cid['id_d8']);
+          //$node->set('field_categoria', $cid['id_d8']);
+          $node->field_categoria->appendItem($cid['id_d8']);
+          $node->save();
+        }
+      }
+    }
+
+    $build['content'] = [
+      '#type' => 'item',
+      '#markup' => $this->t('It works!'),
+    ];
+
+    return $build;
+  }
 }

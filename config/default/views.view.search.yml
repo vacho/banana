@@ -9,7 +9,7 @@ dependencies:
 _core:
   default_config_hash: A5fC0NmIv6Nbef4B0OtaVoUW8hX66FE6di-BEKjIgI4
 id: search
-label: Search
+label: Buscar
 module: views
 description: ''
 tag: ''
@@ -37,7 +37,7 @@ display:
       exposed_form:
         type: input_required
         options:
-          submit_button: Search
+          submit_button: Buscar
           reset_button: false
           reset_button_label: Reset
           exposed_sorts_label: 'Sort by'
@@ -224,7 +224,7 @@ display:
       relationships: {  }
       arguments: {  }
       display_extenders: {  }
-      title: Search
+      title: Buscar
     cache_metadata:
       max-age: -1
       contexts:

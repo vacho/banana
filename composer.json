@@ -28,7 +28,8 @@
         "drupal/php": "^1",
         "drupal/term_merge": "^1@alpha",
         "drupal/disqus": "^1@rc",
-        "drupal/addtoany": "^1.14"
+        "drupal/addtoany": "^1.14",
+        "drupal/devel": "^2.1"
     },
     "require-dev": {
         "drush/drush": "^9.0"

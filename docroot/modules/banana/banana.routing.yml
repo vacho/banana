@@ -1,7 +1,15 @@
-banana.example:
-  path: '/banana/controller'
+banana.tags-spanish-to-english:
+  path: '/banana/tags-spanish-to-english'
   defaults:
     _title: 'Example'
-    _controller: '\Drupal\banana\Controller\BananaController::build'
+    _controller: '\Drupal\banana\Controller\BananaController::tagsSpanishToEnglish'
+  requirements:
+    _permission: 'administer site configuration'
+
+banana.tags-d7-to-d8:
+  path: '/banana/tags-d7-to-d8'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\banana\Controller\BananaController::tagsD7ToD8'
   requirements:
     _permission: 'administer site configuration'
