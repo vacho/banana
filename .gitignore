@@ -8,13 +8,14 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+
+# Prod environment
 error_log
-settings.php
-/docroot/sites/default/settings.php
-services.yml
+php.ini
+.user.ini
 
 # Ignore Composer-managed dependencies.
 vendor/
 
 # Ignore IDE
-.idea
+/.idea
