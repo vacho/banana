@@ -8,6 +8,7 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+error_log
 settings.php
 /docroot/sites/default/settings.php
 services.yml
