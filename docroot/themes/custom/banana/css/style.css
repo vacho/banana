@@ -643,6 +643,10 @@ ul.links.inline li{
   padding: 10px 0px;
 }
 
+.views-field-field-nombre-del-programa {
+  font-weight: bold;
+}
+
 .block-views-blocktags-block-1 H2 {
   background-color: #dfb636!important;
   border-top-style: solid;
@@ -868,6 +872,8 @@ ul.links.inline li{
 #block-views-block-categorias-block-1 h2{
   margin-bottom: 0;
 }
+
+
 
 @media (max-width: 400px) {
   /* For cellphones: */
