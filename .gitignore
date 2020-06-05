@@ -8,6 +8,7 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+services.yml
 
 # Prod environment
 error_log
