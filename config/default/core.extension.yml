@@ -4,7 +4,6 @@ module:
   adminimal_admin_toolbar: 0
   adsense: 0
   autosave_form: 0
-  banana: 0
   bg_image_formatter: 0
   blazy: 0
   blazy_ui: 0
@@ -25,7 +24,6 @@ module:
   ctools: 0
   datetime: 0
   dblog: 0
-  devel: 0
   diff: 0
   disqus: 0
   dropzonejs: 0
@@ -49,7 +47,6 @@ module:
   image_widget_crop: 0
   inline_entity_form: 0
   jsonapi: 0
-  kint: 0
   language: 0
   layout_builder: 0
   layout_builder_restrictions: 0

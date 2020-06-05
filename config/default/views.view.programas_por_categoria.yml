@@ -585,6 +585,9 @@ display:
       display_extenders: {  }
       path: download
       display_description: ''
+      title: 'Free software by professional areas'
+      defaults:
+        title: false
     cache_metadata:
       max-age: -1
       contexts:
