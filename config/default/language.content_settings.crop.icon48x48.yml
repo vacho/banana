@@ -1,0 +1,11 @@
+uuid: 2e499cfa-aa64-4c53-982f-a1027a709b3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - crop.type.icon48x48
+id: crop.icon48x48
+target_entity_type_id: crop
+target_bundle: icon48x48
+default_langcode: site_default
+language_alterable: false

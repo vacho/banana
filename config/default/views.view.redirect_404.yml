@@ -326,7 +326,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Language
+          label: Idioma
           exclude: false
           alter:
             alter_text: false
@@ -471,7 +471,7 @@ display:
           exposed: true
           expose:
             operator_id: langcode_op
-            label: Language
+            label: Idioma
             description: ''
             use_operator: false
             operator: langcode_op

@@ -2,6 +2,9 @@ uuid: 18b4429b-23c9-4744-bdbb-0b3963ba4105
 langcode: es
 status: true
 dependencies:
+  config:
+    - node.type.landing_page
+    - node.type.page
   module:
     - content_moderation
 _core:

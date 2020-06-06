@@ -1,0 +1,26 @@
+uuid: f92b1094-8a1a-49d1-bb22-99e69ae0e153
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+    - php
+name: 'PHP code'
+format: php_code
+weight: 0
+filters:
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
+  php_code:
+    id: php_code
+    provider: php
+    status: true
+    weight: 0
+    settings: {  }

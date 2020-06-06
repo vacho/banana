@@ -27,6 +27,7 @@ dependencies:
     - field.field.node.programa.field_online
     - field.field.node.programa.field_software_libre
     - field.field.node.programa.field_votacion
+    - field.field.node.programa.layout_selection
     - node.type.programa
   module:
     - text
@@ -74,4 +75,5 @@ hidden:
   field_software_libre: true
   field_votacion: true
   langcode: true
+  layout_selection: true
   search_api_excerpt: true

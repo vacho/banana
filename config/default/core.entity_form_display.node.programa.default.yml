@@ -27,6 +27,7 @@ dependencies:
     - field.field.node.programa.field_online
     - field.field.node.programa.field_software_libre
     - field.field.node.programa.field_votacion
+    - field.field.node.programa.layout_selection
     - node.type.programa
   module:
     - content_moderation
@@ -235,6 +236,12 @@ content:
     region: content
     settings:
       include_locked: true
+    third_party_settings: {  }
+  layout_selection:
+    type: options_select
+    region: content
+    weight: 124
+    settings: {  }
     third_party_settings: {  }
   moderation_state:
     type: moderation_state_default

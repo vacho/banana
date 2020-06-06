@@ -9,7 +9,7 @@ id: node.programa.field_autor
 field_name: field_autor
 entity_type: node
 bundle: programa
-label: Autor
+label: 'Autor:'
 description: ''
 required: true
 translatable: true
