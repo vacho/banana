@@ -883,6 +883,126 @@ ul.links.inline li{
   margin-bottom: 1.5em;
 }
 
+/* Node program content */
+
+.node--type-programa .image-container {
+  text-align: center;
+  display: block;
+}
+
+.node--type-programa .layout--threecol-section--33-34-33 {
+  background-color: #F4F4F4;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-nombre-del-programa {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.node--type-programa h2 {
+  background-color: inherit;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+  font-size: 1em;
+  padding: 0;
+  line-height: 20px;
+  margin: 0 5px 0 0;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-gratis {
+  background-color: green;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-online {
+  background-color: #0a6eb4;
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-autor,
+.node--type-programa .block-field-blocknodeprogramafield-idiomes
+{
+  background-color: #E5E5E7;
+  display: flex;
+  padding: 5px 10px;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-categoria div div {
+  display:inline-flex;
+  background-color: #DFB636;
+  padding: 5px  10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border-width: medium;
+  border-color: #B38F1D;
+}
+
+h2.android-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/android.png');
+}
+
+h2.iphone-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/ios.png');
+}
+
+h2.windows-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/windows.png');
+}
+
+h2.windows-32-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/windows.png');
+}
+
+h2.windows-64-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/windows.png');
+}
+
+h2.mac-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/apple.png');
+}
+
+h2.linux-icon {
+  width: 32px;
+  height: 32px;
+  color: transparent;
+  background-image: url('/sites/default/files/linux.png');
+}
+
 
 @media (max-width: 400px) {
   /* For cellphones: */
@@ -927,5 +1047,25 @@ ul.links.inline li{
   .footerwidget table {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .node--type-programa .layout--threecol-section--33-34-33 {
+    background-color: #F4F4F4;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .node--type-programa .block-field-blocknodeprogramafield-categoria div div {
+    display:inline-flex;
+    background-color: #DFB636;
+    padding: 5px  10px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    border-width: medium;
+    border-color: #B38F1D;
+    font-size: 1rem;
   }
 }
