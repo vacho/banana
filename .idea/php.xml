@@ -3,10 +3,6 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/docroot/vendor/composer" />
-      <path value="$PROJECT_DIR$/docroot/vendor/zendframework/zend-diactoros" />
-      <path value="$PROJECT_DIR$/docroot/vendor/zendframework/zend-escaper" />
-      <path value="$PROJECT_DIR$/docroot/vendor/zendframework/zend-stdlib" />
-      <path value="$PROJECT_DIR$/docroot/vendor/zendframework/zend-feed" />
       <path value="$PROJECT_DIR$/docroot/vendor/symfony-cmf/routing" />
       <path value="$PROJECT_DIR$/docroot/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/docroot/vendor/dflydev/dot-access-data" />
@@ -100,6 +96,12 @@
       <path value="$PROJECT_DIR$/docroot/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/docroot/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/docroot/vendor/disqus/disqus-php" />
+      <path value="$PROJECT_DIR$/docroot/vendor/laminas/laminas-stdlib" />
+      <path value="$PROJECT_DIR$/docroot/vendor/laminas/laminas-escaper" />
+      <path value="$PROJECT_DIR$/docroot/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/docroot/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/docroot/vendor/laminas/laminas-feed" />
+      <path value="$PROJECT_DIR$/docroot/vendor/symfony/polyfill-php80" />
     </include_path>
   </component>
 </project>
