@@ -661,6 +661,10 @@ ul.links.inline li{
   color: #E5E5E7;
 }
 
+.block H2 a {
+  color: #E5E5E7 !important;
+}
+
 .views-element-container H2 a {
   color: #E5E5E7 !important;
 }
@@ -873,6 +877,11 @@ ul.links.inline li{
   margin-bottom: 0;
 }
 
+/* Add to any */
+.addtoany_list {
+  display: block;
+  margin-bottom: 1.5em;
+}
 
 
 @media (max-width: 400px) {
