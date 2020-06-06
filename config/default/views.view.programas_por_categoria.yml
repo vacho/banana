@@ -205,7 +205,7 @@ display:
           click_sort_column: value
           type: string
           settings:
-            link_to_entity: true
+            link_to_entity: false
           group_column: value
           group_columns: {  }
           group_rows: true
@@ -482,7 +482,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: 'Page - es'
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
@@ -563,35 +563,10 @@ display:
         operator: AND
         groups:
           1: AND
+      rendering_language: es
     cache_metadata:
       max-age: -1
       contexts:
-        - 'languages:language_content'
-        - 'languages:language_interface'
-        - url
-        - url.query_args
-        - 'user.node_grants:view'
-        - user.permissions
-      tags:
-        - 'config:field.storage.node.field_categoria'
-        - 'config:field.storage.node.field_imagen'
-        - 'config:field.storage.node.field_nombre_del_programa'
-  page_2:
-    display_plugin: page
-    id: page_2
-    display_title: 'Page - en'
-    position: 1
-    display_options:
-      display_extenders: {  }
-      path: download
-      display_description: ''
-      title: 'Free software by professional areas'
-      defaults:
-        title: false
-    cache_metadata:
-      max-age: -1
-      contexts:
-        - 'languages:language_content'
         - 'languages:language_interface'
         - url
         - url.query_args
