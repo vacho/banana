@@ -10,7 +10,7 @@ id: node.programa.field_idiomes
 field_name: field_idiomes
 entity_type: node
 bundle: programa
-label: 'Language:'
+label: Idioma
 description: ''
 required: true
 translatable: true

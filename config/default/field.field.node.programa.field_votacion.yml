@@ -11,7 +11,7 @@ id: node.programa.field_votacion
 field_name: field_votacion
 entity_type: node
 bundle: programa
-label: votacion
+label: Votacion
 description: ''
 required: false
 translatable: false

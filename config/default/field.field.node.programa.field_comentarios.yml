@@ -11,7 +11,7 @@ id: node.programa.field_comentarios
 field_name: field_comentarios
 entity_type: node
 bundle: programa
-label: Comments
+label: Comentarios
 description: ''
 required: false
 translatable: true
