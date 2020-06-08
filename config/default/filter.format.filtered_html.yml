@@ -1,7 +1,9 @@
 uuid: 75e7ea79-3c0d-4ff2-94b1-1c294c290275
 langcode: es
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
 name: 'Filtered HTML'
 format: filtered_html
 weight: -9
@@ -34,3 +36,12 @@ filters:
     weight: 0
     settings:
       filter_url_length: 72
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }

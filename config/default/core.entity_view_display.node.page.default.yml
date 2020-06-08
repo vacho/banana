@@ -64,36 +64,6 @@ third_party_settings:
                 third_party_settings: {  }
             additional: {  }
             weight: 2
-          01477ea1-d446-4cbe-8253-09bdc551724c:
-            uuid: 01477ea1-d446-4cbe-8253-09bdc551724c
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:page:body'
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-            additional: {  }
-            weight: 3
-          05274d25-a462-41c3-9f36-f135e69f8ffa:
-            uuid: 05274d25-a462-41c3-9f36-f135e69f8ffa
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:page:body'
-              formatter:
-                label: hidden
-                type: text_default
-                settings: {  }
-                third_party_settings: {  }
-            additional: {  }
-            weight: 4
         third_party_settings: {  }
   layout_library:
     enable: true

@@ -19,10 +19,14 @@ settings:
             - Underline
             - Strike
             - Italic
+            - Superscript
+            - Subscript
             - JustifyLeft
             - JustifyCenter
             - JustifyRight
             - JustifyBlock
+            - '-'
+            - Copy
             - Format
             - Styles
         -
@@ -41,6 +45,7 @@ settings:
             - Table
             - SpecialChar
             - Blockquote
+            - DrupalImage
             - media_browser
         -
           name: Tools
@@ -54,7 +59,7 @@ settings:
     stylescombo:
       styles: ''
 image_upload:
-  status: false
+  status: true
   scheme: public
   directory: inline-images
   max_size: ''

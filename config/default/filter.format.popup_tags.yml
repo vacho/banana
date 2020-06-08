@@ -1,14 +1,19 @@
 uuid: 2b2baffd-4b05-43d5-accf-15129b3e11a2
 langcode: es
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - media
 name: 'Popup tags'
 format: popup_tags
 weight: -6
 filters:
-  filter_null:
-    id: filter_null
-    provider: filter
-    status: true
-    weight: 0
-    settings: {  }
+  media_embed:
+    id: media_embed
+    provider: media
+    status: false
+    weight: 100
+    settings:
+      default_view_mode: default
+      allowed_media_types: {  }
+      allowed_view_modes: {  }
