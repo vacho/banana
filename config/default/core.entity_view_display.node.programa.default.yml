@@ -81,7 +81,7 @@ third_party_settings:
                 label: hidden
                 type: colorbox
                 settings:
-                  colorbox_node_style: scale_100x80
+                  colorbox_node_style: medium_190x190
                   colorbox_node_style_first: ''
                   colorbox_image_style: ''
                   colorbox_gallery: post
@@ -472,7 +472,7 @@ third_party_settings:
               id: 'extra_field_block:node:programa:links'
               label: Links
               provider: layout_builder
-              label_display: visible
+              label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
             additional: {  }

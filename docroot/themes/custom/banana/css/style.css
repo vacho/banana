@@ -912,7 +912,7 @@ article.node--type-programa h2 a {
 
 /* Node program content */
 .node--type-programa.node--view-mode-full .block-field-blocknodeprogramafield-nombre-del-programa a {
-  font-size: 1.8em !important;
+  font-size: 1em !important;
   color: black !important;
   text-align: center;
 }
@@ -950,33 +950,30 @@ article.node--type-programa h2 a {
   background-color: orange;
   display: flex;
   color: white;
-  text-align: center;
   padding: 5px 10px;
   font-weight: bold;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
 }
 
 .node--type-programa .block-field-blocknodeprogramafield-gratis {
   background-color: green;
   display: flex;
   color: white;
-  text-align: center;
   padding: 5px 10px;
   font-weight: bold;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
 }
 
 .node--type-programa .block-field-blocknodeprogramafield-demo {
   background-color: #0a6eb4;
   display: flex;
   color: white;
-  text-align: center;
   padding: 5px 10px;
   font-weight: bold;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
 }
 
 .node--type-programa .block-field-blocknodeprogramafield-online {
@@ -986,7 +983,7 @@ article.node--type-programa h2 a {
   padding: 5px 10px;
   font-weight: bold;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
 }
 
 .node--type-programa .block-field-blocknodeprogramafield-de-prueba {
@@ -996,17 +993,25 @@ article.node--type-programa h2 a {
   padding: 5px 10px;
   font-weight: bold;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
 }
 
-.node--type-programa .block-field-blocknodeprogramafield-autor,
 .node--type-programa .block-field-blocknodeprogramafield-idiomes
 {
   background-color: #E5E5E7;
   display: flex;
   padding: 5px 10px;
   margin: 0 auto;
-  max-width: 200px;
+  width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-autor {
+  display: inline-block;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 5px 10px;
+  margin: 0 auto;
+  width: 230px;
 }
 
 .node--type-programa .block-field-blocknodeprogramafield-categoria div div {
@@ -1097,6 +1102,25 @@ h2.linux-icon {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .node--type-programa .block-field-blocknodeprogramafield-autor {
+    width: 300px;
+  }
+
+  .node--type-programa .block-field-blocknodeprogramafield-nombre-del-programa {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .node--type-programa .block-extra-field-blocknodeprogramaaddtoany {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  /*.node--type-programa .block-field-blocknodeprogramafield-link-windows-tot {
+    text-align: center;
+  }*/
+
 }
 
 @media (min-width: 400px) and (max-width: 768px) {
