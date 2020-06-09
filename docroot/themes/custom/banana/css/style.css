@@ -1046,17 +1046,21 @@ h2.windows-icon {
 }
 
 h2.windows-32-icon {
-  width: 32px;
+  width: 64px;
   height: 32px;
   color: transparent;
-  background-image: url('/sites/default/files/32bit.png');
+  background-image: url('/sites/default/files/windows.png'), url('/sites/default/files/32bit.png');
+  background-position: left, right;
+  background-repeat: no-repeat, no-repeat;
 }
 
 h2.windows-64-icon {
-  width: 32px;
+  width: 64px;
   height: 32px;
   color: transparent;
-  background-image: url('/sites/default/files/64bit.png');
+  background-image: url('/sites/default/files/windows.png'), url('/sites/default/files/64bit.png');
+  background-position: left, right;
+  background-repeat: no-repeat, no-repeat;
 }
 
 h2.mac-icon {
@@ -1116,10 +1120,6 @@ h2.linux-icon {
     margin: 20px 0;
     text-align: center;
   }
-
-  /*.node--type-programa .block-field-blocknodeprogramafield-link-windows-tot {
-    text-align: center;
-  }*/
 
 }
 
