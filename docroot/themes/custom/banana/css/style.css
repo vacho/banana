@@ -35,6 +35,14 @@ img{ max-width: 100%; height: auto; }
   color: #DFB636 !important;
 }
 
+.block-field-blocknodeprogramafield-categoria a{
+  color: #4A4B50 !important;
+}
+
+.block-field-blocknodeprogramafield-categoria a:hover{
+  color: #313235 !important;
+}
+
 a{
   color: #4A4B50 !important;
 }
@@ -921,6 +929,17 @@ ul.links.inline li{
   margin: 0 5px 0 0;
 }
 
+.node--type-programa .block-field-blocknodeprogramafield-software-libre {
+  background-color: orange;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
 .node--type-programa .block-field-blocknodeprogramafield-gratis {
   background-color: green;
   display: flex;
@@ -932,8 +951,29 @@ ul.links.inline li{
   max-width: 200px;
 }
 
-.node--type-programa .block-field-blocknodeprogramafield-online {
+.node--type-programa .block-field-blocknodeprogramafield-demo {
   background-color: #0a6eb4;
+  display: flex;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-online {
+  background-color: #0d3349;
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+.node--type-programa .block-field-blocknodeprogramafield-de-prueba {
+  background-color: #00a0a7;
   display: flex;
   color: white;
   padding: 5px 10px;

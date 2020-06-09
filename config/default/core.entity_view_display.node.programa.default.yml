@@ -51,112 +51,189 @@ third_party_settings:
           label: Header
           column_widths: 33-34-33
         components:
-          ad6fb63a-0eed-4a37-8747-2ab2a6bead41:
-            uuid: ad6fb63a-0eed-4a37-8747-2ab2a6bead41
+          b46d721b-b08b-4bdd-a45e-7e6a140f7273:
+            uuid: b46d721b-b08b-4bdd-a45e-7e6a140f7273
             region: first
             configuration:
-              id: 'field_block:node:programa:field_nombre_del_programa'
-              label: 'Nombre del programa'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_votacion'
+              formatter:
+                label: hidden
+                settings:
+                  fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
+                  display_format: average
+                  text_format: average
+                third_party_settings: {  }
+                type: fivestar_stars
+            additional: {  }
+            weight: 4
+          66a709af-e9e1-4eca-b474-1961722b73f8:
+            uuid: 66a709af-e9e1-4eca-b474-1961722b73f8
+            region: first
+            configuration:
+              id: 'field_block:node:programa:field_imagen'
+              label: Image
               provider: layout_builder
               label_display: '0'
               formatter:
                 label: hidden
-                type: string
+                type: colorbox
                 settings:
-                  link_to_entity: true
+                  colorbox_node_style: scale_100x80
+                  colorbox_node_style_first: ''
+                  colorbox_image_style: ''
+                  colorbox_gallery: post
+                  colorbox_gallery_custom: ''
+                  colorbox_caption: auto
+                  colorbox_caption_custom: ''
                 third_party_settings: {  }
               context_mapping:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
             weight: 5
-          6b7af3ae-9c2b-4067-8ee9-01d249697d4b:
-            uuid: 6b7af3ae-9c2b-4067-8ee9-01d249697d4b
+          376ba8f2-fee8-4afd-addb-308a6d5e478e:
+            uuid: 376ba8f2-fee8-4afd-addb-308a6d5e478e
             region: first
             configuration:
               label_display: '0'
               context_mapping:
                 entity: layout_builder.entity
-              id: 'field_block:node:programa:field_imagen'
+              id: 'field_block:node:programa:field_nombre_del_programa'
               formatter:
                 label: hidden
-                type: colorbox
+                type: string
                 settings:
-                  colorbox_node_style: media_library
-                  colorbox_node_style_first: ''
-                  colorbox_image_style: ''
-                  colorbox_gallery: page
-                  colorbox_gallery_custom: ''
-                  colorbox_caption: auto
-                  colorbox_caption_custom: ''
+                  link_to_entity: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 3
+          d99a12d7-6947-4baa-b080-6a3a312c1f66:
+            uuid: d99a12d7-6947-4baa-b080-6a3a312c1f66
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_software_libre'
+              formatter:
+                label: hidden
+                type: boolean
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 6
+          cff29348-ac6c-4eaf-ba24-790f5dc6fe9d:
+            uuid: cff29348-ac6c-4eaf-ba24-790f5dc6fe9d
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_gratis'
+              formatter:
+                label: hidden
+                type: boolean
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
                 third_party_settings: {  }
             additional: {  }
             weight: 7
-          5e5a5007-698f-41e4-a0a4-8157a6728212:
-            uuid: 5e5a5007-698f-41e4-a0a4-8157a6728212
+          729c3688-5e31-45ae-935a-b97867be4ca6:
+            uuid: 729c3688-5e31-45ae-935a-b97867be4ca6
             region: first
             configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_de_prueba'
+              formatter:
+                label: hidden
+                type: boolean
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 11
+          a7964ff8-5f68-40a0-bcb6-3c2e5331cdf2:
+            uuid: a7964ff8-5f68-40a0-bcb6-3c2e5331cdf2
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_demo'
+              formatter:
+                label: hidden
+                type: boolean
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 9
+          c4a949ce-cdeb-47f9-aae2-d76f47c8d9f7:
+            uuid: c4a949ce-cdeb-47f9-aae2-d76f47c8d9f7
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_online'
+              formatter:
+                label: hidden
+                type: boolean
+                settings:
+                  format: default
+                  format_custom_false: ''
+                  format_custom_true: ''
+                third_party_settings: {  }
+            additional: {  }
+            weight: 10
+          8dcc360c-4d9e-43b1-a012-853faf390714:
+            uuid: 8dcc360c-4d9e-43b1-a012-853faf390714
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_idiomes'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 12
+          0c78a129-efac-4e23-bbe3-b2413036231e:
+            uuid: 0c78a129-efac-4e23-bbe3-b2413036231e
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
               id: 'field_block:node:programa:field_autor'
-              label: Autor
-              provider: layout_builder
-              label_display: visible
               formatter:
                 label: hidden
                 type: string
                 settings:
                   link_to_entity: false
                 third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 12
-          d93fea73-0a65-413c-8090-27b267427644:
-            uuid: d93fea73-0a65-413c-8090-27b267427644
-            region: first
-            configuration:
-              id: 'field_block:node:programa:field_gratis'
-              label: Free
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: boolean
-                settings:
-                  format: default
-                  format_custom_true: ''
-                  format_custom_false: ''
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 8
-          75fc6a17-ab8e-4bbd-839e-fbb09c89fc5c:
-            uuid: 75fc6a17-ab8e-4bbd-839e-fbb09c89fc5c
-            region: second
-            configuration:
-              id: 'field_block:node:programa:field_link_linux'
-              label: 'Link Android'
-              provider: layout_builder
-              label_display: visible
-              formatter:
-                label: hidden
-                type: link
-                settings:
-                  trim_length: 80
-                  url_only: false
-                  url_plain: false
-                  rel: '0'
-                  target: '0'
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
             additional: {  }
             weight: 13
-          39d99057-8724-402c-8435-e24b89bad1d1:
-            uuid: 39d99057-8724-402c-8435-e24b89bad1d1
+          b3588dfb-d2c6-49e1-b0a8-6c4f821a7bc5:
+            uuid: b3588dfb-d2c6-49e1-b0a8-6c4f821a7bc5
             region: second
             configuration:
               id: 'field_block:node:programa:field_link_linux_tot'
@@ -178,12 +255,22 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 12
-          71795d0e-cab9-415e-9174-09f16f3b3572:
-            uuid: 71795d0e-cab9-415e-9174-09f16f3b3572
+          a084be6c-2251-4c55-a380-0de583bd7c41:
+            uuid: a084be6c-2251-4c55-a380-0de583bd7c41
             region: second
             configuration:
-              id: 'field_block:node:programa:field_link_windows'
-              label: 'Link Windows 32'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:programa:addtoany'
+            additional: {  }
+            weight: 2
+          f5006631-4bc7-48c1-a35e-b50717177908:
+            uuid: f5006631-4bc7-48c1-a35e-b50717177908
+            region: second
+            configuration:
+              id: 'field_block:node:programa:field_manual'
+              label: Manual
               provider: layout_builder
               label_display: visible
               formatter:
@@ -200,9 +287,32 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 9
-          db379259-47b8-4651-b86f-f0ff97aa42f0:
-            uuid: db379259-47b8-4651-b86f-f0ff97aa42f0
+            weight: 3
+          901690af-6e55-4e61-898f-ef6a8c07c4ef:
+            uuid: 901690af-6e55-4e61-898f-ef6a8c07c4ef
+            region: second
+            configuration:
+              id: 'field_block:node:programa:field_link_general'
+              label: 'Link general'
+              provider: layout_builder
+              label_display: visible
+              formatter:
+                label: hidden
+                type: link
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: '0'
+                  target: '0'
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 5
+          5d92c3e5-a27d-4cfb-a7e1-5389cf1e16cd:
+            uuid: 5d92c3e5-a27d-4cfb-a7e1-5389cf1e16cd
             region: second
             configuration:
               id: 'field_block:node:programa:field_link_windows_tot'
@@ -223,9 +333,9 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 8
-          5b095ef7-84cf-4c50-b48b-42e753a39412:
-            uuid: 5b095ef7-84cf-4c50-b48b-42e753a39412
+            weight: 7
+          a76106e1-a25f-49b1-9ef6-022468615cde:
+            uuid: a76106e1-a25f-49b1-9ef6-022468615cde
             region: second
             configuration:
               id: 'field_block:node:programa:field_link_windows_64'
@@ -247,12 +357,28 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 10
-          9e6e85e2-72fd-4528-ae92-e31b356ceca1:
-            uuid: 9e6e85e2-72fd-4528-ae92-e31b356ceca1
+          2c6728e8-ff0e-49a3-ad63-fa178ba06cdf:
+            uuid: 2c6728e8-ff0e-49a3-ad63-fa178ba06cdf
+            region: third
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_categoria'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+          367b2143-ca00-4660-8ea3-2b01a5888f1c:
+            uuid: 367b2143-ca00-4660-8ea3-2b01a5888f1c
             region: second
             configuration:
-              id: 'field_block:node:programa:field_link_linux_64'
-              label: 'Link IPhone'
+              id: 'field_block:node:programa:field_link_windows'
+              label: 'Link Windows 32'
               provider: layout_builder
               label_display: visible
               formatter:
@@ -269,9 +395,9 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 14
-          cf70c719-db2b-4ad9-a004-8a3ba3ca1c57:
-            uuid: cf70c719-db2b-4ad9-a004-8a3ba3ca1c57
+            weight: 8
+          4b0428b2-d145-4578-994c-6e08394bb455:
+            uuid: 4b0428b2-d145-4578-994c-6e08394bb455
             region: second
             configuration:
               id: 'field_block:node:programa:field_link_mac'
@@ -293,12 +419,12 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 11
-          b2302be2-3ef1-4818-bd0f-18f5bbad889a:
-            uuid: b2302be2-3ef1-4818-bd0f-18f5bbad889a
+          8ea145a5-d389-46ef-9645-fe151a0af3cd:
+            uuid: 8ea145a5-d389-46ef-9645-fe151a0af3cd
             region: second
             configuration:
-              id: 'field_block:node:programa:field_manual'
-              label: Manual
+              id: 'field_block:node:programa:field_link_linux_64'
+              label: 'Link IPhone'
               provider: layout_builder
               label_display: visible
               formatter:
@@ -315,13 +441,13 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 5
-          e77e3409-92f8-42f8-b017-98340fd20563:
-            uuid: e77e3409-92f8-42f8-b017-98340fd20563
+            weight: 14
+          0b1d8dcd-3d3d-4c4d-aad8-a0cc4264d1cd:
+            uuid: 0b1d8dcd-3d3d-4c4d-aad8-a0cc4264d1cd
             region: second
             configuration:
-              id: 'field_block:node:programa:field_link_general'
-              label: 'Link general'
+              id: 'field_block:node:programa:field_link_linux'
+              label: 'Link Android'
               provider: layout_builder
               label_display: visible
               formatter:
@@ -338,105 +464,33 @@ third_party_settings:
                 entity: layout_builder.entity
                 view_mode: view_mode
             additional: {  }
-            weight: 6
-          ecfc603e-4d0c-4182-b951-74c294cb909c:
-            uuid: ecfc603e-4d0c-4182-b951-74c294cb909c
-            region: first
-            configuration:
-              id: 'field_block:node:programa:field_idiomes'
-              label: 'Language:'
-              provider: layout_builder
-              label_display: visible
-              formatter:
-                label: hidden
-                type: entity_reference_label
-                settings:
-                  link: false
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 10
-          5fb3b447-8a7c-4385-8d1e-4f1f9ce95080:
-            uuid: 5fb3b447-8a7c-4385-8d1e-4f1f9ce95080
-            region: first
-            configuration:
-              id: 'field_block:node:programa:field_online'
-              label: Online
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: boolean
-                settings:
-                  format: default
-                  format_custom_true: ''
-                  format_custom_false: ''
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 9
-          44687f5f-9ec6-4c6b-a87b-d935cb357486:
-            uuid: 44687f5f-9ec6-4c6b-a87b-d935cb357486
-            region: first
-            configuration:
-              id: 'field_block:node:programa:field_votacion'
-              label: votacion
-              provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: fivestar_stars
-                settings:
-                  fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
-                  display_format: average
-                  text_format: average
-                third_party_settings: {  }
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-            additional: {  }
-            weight: 6
-          ef964060-1706-48d9-831c-ec9cca28e8ff:
-            uuid: ef964060-1706-48d9-831c-ec9cca28e8ff
-            region: second
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'extra_field_block:node:programa:addtoany'
-            additional: {  }
-            weight: 4
-          a0127bec-630b-4e36-84e4-6d69a238a51e:
-            uuid: a0127bec-630b-4e36-84e4-6d69a238a51e
+            weight: 13
+          f2df0754-cf60-4fec-aa6b-e36544a9099a:
+            uuid: f2df0754-cf60-4fec-aa6b-e36544a9099a
             region: third
             configuration:
-              id: 'field_block:node:programa:field_categoria'
-              label: Categoria
+              id: 'extra_field_block:node:programa:links'
+              label: Links
               provider: layout_builder
-              label_display: '0'
-              formatter:
-                label: hidden
-                type: entity_reference_label
-                settings:
-                  link: true
-                third_party_settings: {  }
+              label_display: visible
               context_mapping:
                 entity: layout_builder.entity
-                view_mode: view_mode
             additional: {  }
-            weight: 0
+            weight: 2
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
         third_party_settings: {  }
       -
         layout_id: layout_onecol
         layout_settings:
           label: Contenido
         components:
-          3b7e18cd-9e62-4dca-a380-4f9410922dd3:
-            uuid: 3b7e18cd-9e62-4dca-a380-4f9410922dd3
+          4a8933d4-eecc-4ff9-af26-ad630f82609b:
+            uuid: 4a8933d4-eecc-4ff9-af26-ad630f82609b
             region: content
             configuration:
               label_display: '0'
@@ -456,8 +510,8 @@ third_party_settings:
         layout_settings:
           label: Footer
         components:
-          e9b1d9f1-80df-4bbf-bb9f-863fa2f01d57:
-            uuid: e9b1d9f1-80df-4bbf-bb9f-863fa2f01d57
+          9e182a77-25be-4315-a471-73fa5b9997bf:
+            uuid: 9e182a77-25be-4315-a471-73fa5b9997bf
             region: content
             configuration:
               label_display: '0'
@@ -499,7 +553,7 @@ content:
     region: content
   field_autor:
     label: hidden
-    weight: 7
+    weight: 10
     type: string
     settings:
       link_to_entity: false
@@ -507,7 +561,7 @@ content:
     region: content
   field_categoria:
     label: hidden
-    weight: 8
+    weight: 11
     type: entity_reference_label
     settings:
       link: true
@@ -522,7 +576,7 @@ content:
     region: content
   field_de_prueba:
     label: hidden
-    weight: 15
+    weight: 7
     type: boolean
     settings:
       format: default
@@ -532,7 +586,7 @@ content:
     region: content
   field_demo:
     label: hidden
-    weight: 18
+    weight: 8
     type: boolean
     settings:
       format: default
@@ -552,7 +606,7 @@ content:
     region: content
   field_idiomes:
     label: hidden
-    weight: 9
+    weight: 12
     type: entity_reference_label
     settings:
       link: true
@@ -574,7 +628,7 @@ content:
     region: content
   field_link_general:
     label: hidden
-    weight: 10
+    weight: 13
     type: link
     settings:
       trim_length: 80
@@ -586,7 +640,7 @@ content:
     region: content
   field_link_linux:
     label: hidden
-    weight: 14
+    weight: 17
     type: link
     settings:
       trim_length: 80
@@ -598,7 +652,7 @@ content:
     region: content
   field_link_linux_64:
     label: hidden
-    weight: 17
+    weight: 19
     type: link
     settings:
       trim_length: 80
@@ -622,7 +676,7 @@ content:
     region: content
   field_link_mac:
     label: hidden
-    weight: 13
+    weight: 16
     type: link
     settings:
       trim_length: 80
@@ -634,7 +688,7 @@ content:
     region: content
   field_link_windows:
     label: hidden
-    weight: 11
+    weight: 14
     type: link
     settings:
       trim_length: 80
@@ -646,7 +700,7 @@ content:
     region: content
   field_link_windows_64:
     label: hidden
-    weight: 12
+    weight: 15
     type: link
     settings:
       trim_length: 80
@@ -670,7 +724,7 @@ content:
     region: content
   field_manual:
     label: hidden
-    weight: 16
+    weight: 18
     type: link
     settings:
       trim_length: 80
@@ -690,7 +744,7 @@ content:
     region: content
   field_online:
     label: hidden
-    weight: 19
+    weight: 9
     type: boolean
     settings:
       format: default
