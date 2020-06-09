@@ -27,6 +27,14 @@ h4, .h4{ font-size: 1.2em; color: #000; }
 
 img{ max-width: 100%; height: auto; }
 
+.node__content a {
+  color: #B38F1D !important;
+}
+
+.node__content a:hover{
+  color: #DFB636 !important;
+}
+
 a{
   color: #4A4B50 !important;
 }

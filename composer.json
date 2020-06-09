@@ -30,7 +30,8 @@
         "drupal/disqus": "^1@rc",
         "drupal/addtoany": "^1.14",
         "drupal/devel": "^2.1",
-        "drupal/easy_breadcrumb": "^1.12"
+        "drupal/easy_breadcrumb": "^1.12",
+        "drupal/editor_advanced_link": "^1.8"
     },
     "require-dev": {
         "drush/drush": "^9.0"
