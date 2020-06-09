@@ -3,6 +3,7 @@ langcode: es
 status: true
 dependencies:
   config:
+    - core.base_field_override.node.programa.title
     - core.entity_view_mode.node.teaser
     - field.field.node.programa.body
     - field.field.node.programa.field_autor
@@ -28,38 +29,137 @@ dependencies:
     - field.field.node.programa.field_software_libre
     - field.field.node.programa.field_votacion
     - field.field.node.programa.layout_selection
+    - image.style.scale_100x80
     - node.type.programa
   module:
-    - text
+    - image
+    - layout_builder
+    - layout_library
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: false
+    enabled: true
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          column_widths: 25-75
+        components:
+          7dc74a32-4092-40a1-94c6-f86bb5f7a901:
+            uuid: 7dc74a32-4092-40a1-94c6-f86bb5f7a901
+            region: first
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_imagen'
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_style: scale_100x80
+                  image_link: content
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+          ac17b2a9-789c-43e9-ae3d-adf44da9a6bf:
+            uuid: ac17b2a9-789c-43e9-ae3d-adf44da9a6bf
+            region: second
+            configuration:
+              id: 'field_block:node:programa:field_nombre_del_programa'
+              label: 'Nombre del programa'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: hidden
+                type: string
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 0
+          918bd1a8-ed7a-473c-8018-1920be508b3c:
+            uuid: 918bd1a8-ed7a-473c-8018-1920be508b3c
+            region: second
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_categoria'
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 2
+          28a190ba-c13e-4c02-9bad-c6c815194684:
+            uuid: 28a190ba-c13e-4c02-9bad-c6c815194684
+            region: second
+            configuration:
+              id: 'field_block:node:programa:title'
+              label: 'Título (no el nombre del programa)'
+              provider: layout_builder
+              label_display: '0'
+              formatter:
+                label: above
+                type: string
+                settings:
+                  link_to_entity: true
+                third_party_settings: {  }
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+            additional: {  }
+            weight: 1
+        third_party_settings: {  }
+  layout_library:
+    enable: false
 id: node.programa.teaser
 targetEntityType: node
 bundle: programa
 mode: teaser
 content:
-  body:
+  field_categoria:
+    type: entity_reference_label
+    weight: 2
+    region: content
     label: hidden
-    weight: 0
-    type: text_summary_or_trimmed
     settings:
-      trim_length: 600
+      link: true
     third_party_settings: {  }
+  field_imagen:
+    type: image
+    weight: 0
     region: content
-  links:
-    weight: 100
-    settings: {  }
+    label: hidden
+    settings:
+      image_style: scale_100x80
+      image_link: content
     third_party_settings: {  }
+  field_nombre_del_programa:
+    type: string
+    weight: 1
     region: content
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
 hidden:
   addtoany: true
+  body: true
   field_autor: true
-  field_categoria: true
   field_comentarios: true
   field_de_prueba: true
   field_demo: true
   field_gratis: true
   field_idiomes: true
-  field_imagen: true
   field_link_general: true
   field_link_linux: true
   field_link_linux_64: true
@@ -70,10 +170,10 @@ hidden:
   field_link_windows_tot: true
   field_manual: true
   field_metatag: true
-  field_nombre_del_programa: true
   field_online: true
   field_software_libre: true
   field_votacion: true
   langcode: true
   layout_selection: true
+  links: true
   search_api_excerpt: true

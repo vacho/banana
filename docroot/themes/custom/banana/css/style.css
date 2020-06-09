@@ -661,6 +661,7 @@ ul.links.inline li{
 
 .views-field-field-nombre-del-programa {
   font-weight: bold;
+  font-size: 1.8em;
 }
 
 .block-views-blocktags-block-1 H2 {
@@ -669,6 +670,7 @@ ul.links.inline li{
   border-top-width: medium;
   border-top-color: black;
   color: black!important;
+  font-weight: bold;
 }
 
 .views-element-container H2,
@@ -766,6 +768,7 @@ ul.links.inline li{
   padding: 10px 0;
   font-size: 1.8em;
   text-align: center;
+  font-weight: bold;
 }
 
 .views-element-container .item-list .views-field-field-imagen {
@@ -893,6 +896,14 @@ ul.links.inline li{
   margin-bottom: 0;
 }
 
+.vocabulary-tags {
+  margin-bottom: 30px;
+}
+
+article.node--type-programa h2 a {
+  display: none;
+}
+
 /* Add to any */
 .addtoany_list {
   display: block;
@@ -900,6 +911,12 @@ ul.links.inline li{
 }
 
 /* Node program content */
+.node--type-programa.node--view-mode-full .block-field-blocknodeprogramafield-nombre-del-programa a {
+  font-size: 1.8em !important;
+  color: black !important;
+  text-align: center;
+}
+
 
 .node--type-programa .image-container {
   text-align: center;
@@ -1027,14 +1044,14 @@ h2.windows-32-icon {
   width: 32px;
   height: 32px;
   color: transparent;
-  background-image: url('/sites/default/files/windows.png');
+  background-image: url('/sites/default/files/32bit.png');
 }
 
 h2.windows-64-icon {
   width: 32px;
   height: 32px;
   color: transparent;
-  background-image: url('/sites/default/files/windows.png');
+  background-image: url('/sites/default/files/64bit.png');
 }
 
 h2.mac-icon {
@@ -1051,6 +1068,13 @@ h2.linux-icon {
   background-image: url('/sites/default/files/linux.png');
 }
 
+.node--type-programa .block-field-blocknodeprogramafield-nombre-del-programa {
+  margin-bottom: 0px;
+}
+
+.node--type-programa a {
+  font-size: 14px !important;
+}
 
 @media (max-width: 400px) {
   /* For cellphones: */
@@ -1117,3 +1141,4 @@ h2.linux-icon {
     font-size: 1rem;
   }
 }
+
