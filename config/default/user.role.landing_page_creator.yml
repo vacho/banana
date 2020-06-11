@@ -16,7 +16,6 @@ permissions:
   - 'configure any layout'
   - 'create landing_page content'
   - 'create url aliases'
-  - 'display eu cookie compliance popup'
   - 'edit own landing_page content'
   - 'use editorial transition create_new_draft'
   - 'use editorial transition review'

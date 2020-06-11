@@ -13,4 +13,3 @@ permissions:
   - 'administer panelizer node landing_page defaults'
   - 'administer panelizer node page defaults'
   - 'configure any layout'
-  - 'display eu cookie compliance popup'

@@ -10,7 +10,6 @@ permissions:
   - 'access content overview'
   - 'access toolbar'
   - 'delete any page content'
-  - 'display eu cookie compliance popup'
   - 'edit any page content'
   - 'use editorial transition archive'
   - 'use editorial transition publish'

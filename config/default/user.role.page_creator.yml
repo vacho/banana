@@ -16,7 +16,6 @@ permissions:
   - 'configure any layout'
   - 'create page content'
   - 'create url aliases'
-  - 'display eu cookie compliance popup'
   - 'edit own page content'
   - 'use editorial transition create_new_draft'
   - 'use editorial transition review'

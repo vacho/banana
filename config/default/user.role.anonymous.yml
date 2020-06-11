@@ -15,6 +15,7 @@ permissions:
   - 'access media overview'
   - 'access media_browser entity browser pages'
   - 'display EU Cookie Compliance popup'
+  - 'display eu cookie compliance popup'
   - 'rate content'
   - 'search content'
   - 'use text format filtered_html'

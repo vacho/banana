@@ -14,4 +14,3 @@ permissions:
   - 'access media_browser entity browser pages'
   - 'administer media'
   - 'administer media bundles'
-  - 'display eu cookie compliance popup'
