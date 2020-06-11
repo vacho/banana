@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Banana programs module.
+ */
+
+
+/**
+ * Implements hook_views_data_alter().
+ */
+function banana_programs_views_data_alter(array &$data) {
+  $data['node__field_categoria']['categories'] = [
+    'title' => t('Category filter from parent'),
+    'group' => t('Content'),
+    'filter' => [
+      'title' => t('Category filter from parent'),
+      'help' => t('Provides a filter from parent category.'),
+      'field' => 'field_categoria_target_id',
+      'id' => 'views_category_children_filter'
+    ],
+  ];
+}

@@ -1,0 +1,6 @@
+name: Banana programs
+type: module
+description: The programs ct customizations
+package: Banana
+core: 8.x
+core_version_requirement: ^8 || ^9
