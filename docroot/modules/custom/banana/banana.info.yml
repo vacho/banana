@@ -1,6 +1,6 @@
 name: banana
 type: module
-description: The banana customizations
+description: The banana controller to make automated tasks
 package: Banana
 core: 8.x
 core_version_requirement: ^8 || ^9

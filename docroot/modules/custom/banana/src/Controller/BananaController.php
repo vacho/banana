@@ -21,7 +21,7 @@ class BananaController extends ControllerBase {
       '#markup' => $this->t('It works!'),
     ];
 
-    $query = \Drupal::entityQuery('node')
+    /*$query = \Drupal::entityQuery('node')
       ->condition('status', 1)
       ->condition('type', 'programa');
     $nids = $query->execute();
@@ -65,14 +65,14 @@ class BananaController extends ControllerBase {
 
       Print "====================<br>";
 
-    }
+    }*/
 
     return $build;
   }
 
   public function tagsD7ToD8() {
     // Switch to external database
-    \Drupal\Core\Database\Database::setActiveConnection('external');
+    /*\Drupal\Core\Database\Database::setActiveConnection('external');
 
     $db = \Drupal\Core\Database\Database::getConnection();
     $category_ids = [
@@ -108,7 +108,7 @@ class BananaController extends ControllerBase {
           $node->save();
         }
       }
-    }
+    }*/
 
     $build['content'] = [
       '#type' => 'item',

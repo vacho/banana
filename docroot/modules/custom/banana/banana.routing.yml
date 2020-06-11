@@ -13,3 +13,11 @@ banana.tags-d7-to-d8:
     _controller: '\Drupal\banana\Controller\BananaController::tagsD7ToD8'
   requirements:
     _permission: 'administer site configuration'
+
+banana.show:
+  path: '/banana/show'
+  defaults:
+    _title: 'Show'
+    _controller: '\Drupal\banana\Controller\ShowController::build'
+  requirements:
+    _permission: 'access content'
