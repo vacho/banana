@@ -1,12 +1,9 @@
-uuid: 96d01f2f-3c56-425f-a9d7-2c3e5d604bea
 langcode: es
 status: open
 dependencies:
   enforced:
     module:
       - webform
-_core:
-  default_config_hash: kwZVwIX7pVsR7yoEws_rwdWfn1Gr6l24w4ibCEvF5Js
 open: null
 close: null
 weight: 0
@@ -59,6 +56,11 @@ settings:
   form_access_denied_message: ''
   form_access_denied_attributes: {  }
   form_file_limit: ''
+  share: false
+  share_node: false
+  share_theme_name: ''
+  share_title: true
+  share_page_body_attributes: {  }
   submission_label: ''
   submission_log: false
   submission_views: {  }
@@ -255,3 +257,6 @@ handlers:
       sender_mail: ''
       sender_name: ''
 variants: {  }
+uuid: 96d01f2f-3c56-425f-a9d7-2c3e5d604bea
+_core:
+  default_config_hash: kwZVwIX7pVsR7yoEws_rwdWfn1Gr6l24w4ibCEvF5Js

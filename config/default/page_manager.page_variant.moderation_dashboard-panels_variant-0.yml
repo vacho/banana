@@ -17,7 +17,7 @@ dependencies:
 _core:
   default_config_hash: XHjA0_Myfby6ldNgF6_8QmhgM1dfSjKsAVM1yot-FRQ
 id: moderation_dashboard-panels_variant-0
-label: Panels
+label: Paneles
 variant: panels_variant
 variant_settings:
   blocks:
@@ -34,10 +34,10 @@ variant_settings:
       context_mapping: {  }
     bcc91274-24b8-4755-9bf5-e6f104674898:
       id: 'views_block:moderation_dashboard_recent_changes-block_1'
-      label: 'Recent updates'
+      label: 'Cambios recientes'
       provider: views
       label_display: visible
-      views_label: 'Recent updates'
+      views_label: 'Cambios recientes'
       items_per_page: none
       region: middle
       weight: -10
@@ -45,10 +45,10 @@ variant_settings:
       context_mapping: {  }
     1a06173d-634b-4475-a80b-d23a9773083b:
       id: 'views_block:moderation_dashboard_recently_created-block_1'
-      label: 'Recently created'
+      label: 'Recientemente creado'
       provider: views
       label_display: visible
-      views_label: 'Recently created'
+      views_label: 'Recientemente creado'
       items_per_page: none
       region: middle
       weight: -9
