@@ -19,4 +19,7 @@ jQuery(document).ready(function($) {
   var empty5 = $(".node--type-programa .block-field-blocknodeprogramafield-de-prueba div:empty");
   empty5.parent().remove();
 
+  $("[class*='-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades']").addClass("-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades");
+  $("[class*='-en-download-free-software-physical-mathematical-astronomy']").addClass("-en-download-free-software-physical-mathematical-astronomy");
+
 });
