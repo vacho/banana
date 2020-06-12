@@ -802,7 +802,7 @@ ul.links.inline li{
   border-color: #B38F1D;
 }
 
-span[class*="-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades"] a,
+span[class^='-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades'] a,
 .-en-download-free-software-social-sciences-and-humanities* a {
   display: block;
   background-color: #b4b4b4;
