@@ -20,6 +20,32 @@ jQuery(document).ready(function($) {
   empty5.parent().remove();
 
   $("[class*='-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades']").addClass("-es-descargar-programas-gratis-de-ciencias-sociales-y-humanidades");
-  $("[class*='-en-download-free-software-physical-mathematical-astronomy']").addClass("-en-download-free-software-physical-mathematical-astronomy");
+  $("[class*='-en-download-free-software-social-sciences-and-humanities']").addClass("-en-download-free-software-social-sciences-and-humanities");
 
+  $("[class*='-es-descargar-programas-gratis-de-docencia-y-pedagogia']").addClass("-es-descargar-programas-gratis-de-docencia-y-pedagogia");
+  $("[class*='-en-download-free-software-teaching-and-pedagogy']").addClass("-en-download-free-software-teaching-and-pedagogy");
+
+  $("[class*='-es-descargar-programas-gratis-de-gestion-finanzas-ventas']").addClass("-es-descargar-programas-gratis-de-gestion-finanzas-ventas");
+  $("[class*='-en-download-free-software-management-finances-sales']").addClass("-en-download-free-software-management-finances-sales");
+
+  $("[class*='-es-descargar-programas-gratis-de-arte-y-multimedia']").addClass("-es-descargar-programas-gratis-de-arte-y-multimedia");
+  $("[class*='-en-download-free-software-art-and-multimedia']").addClass("-en-download-free-software-art-and-multimedia");
+
+  $("[class*='-es-descargar-programas-gratis-de-ciencias-naturales']").addClass("-es-descargar-programas-gratis-de-ciencias-naturales");
+  $("[class*='-en-download-free-software-natural-science']").addClass("-en-download-free-software-natural-science");
+
+  $("[class*='-es-descargar-programas-gratis-de-ingenieria-y-arquitectura']").addClass("-es-descargar-programas-gratis-de-ingenieria-y-arquitectura");
+  $("[class*='-en-download-free-software-engineering-architecture']").addClass("-en-download-free-software-engineering-architecture");
+
+  $("[class*='-es-descargar-programas-gratis-de-ciencias-medicas-y-salud']").addClass("-es-descargar-programas-gratis-de-ciencias-medicas-y-salud");
+  $("[class*='-en-download-free-software-medicine-and-health']").addClass("-en-download-free-software-medicine-and-health");
+
+  $("[class*='-es-descargar-programas-gratis-de-informatica-y-telecomunicaciones']").addClass("-es-descargar-programas-gratis-de-informatica-y-telecomunicaciones");
+  $("[class*='-en-download-free-software-computer-and-telecommunications']").addClass("-en-download-free-software-computer-and-telecommunications");
+
+  $("[class*='-es-descargar-programas-gratis-de-otras-profesiones']").addClass("-es-descargar-programas-gratis-de-otras-profesiones");
+  $("[class*='-en-download-free-software-another-crafts']").addClass("-en-download-free-software-another-crafts");
+
+  $("[class*='-es-descargar-programas-gratis-de-fisica-matematicas-y-astronomia']").addClass("-es-descargar-programas-gratis-de-fisica-matematicas-y-astronomia");
+  $("[class*='-en-download-free-software-physical-mathematical-astronomy']").addClass("-en-download-free-software-physical-mathematical-astronomy");
 });
