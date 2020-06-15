@@ -11,7 +11,7 @@ dependencies:
 id: publiderechaabajo
 theme: banana
 region: sidebar_second
-weight: -6
+weight: -7
 provider: null
 plugin: 'block_content:a7a92851-d450-4194-85a1-a181f3b2cf3d'
 settings:

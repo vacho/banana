@@ -290,7 +290,7 @@ display:
   block_1:
     display_plugin: block
     id: block_1
-    display_title: 'Recently created'
+    display_title: 'Recientemente creado'
     position: 1
     display_options:
       display_extenders: {  }

@@ -9,7 +9,7 @@ dependencies:
 id: managedad
 theme: banana
 region: content
-weight: -15
+weight: -16
 provider: null
 plugin: adsense_managed_ad_block
 settings:

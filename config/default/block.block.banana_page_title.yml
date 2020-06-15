@@ -11,12 +11,12 @@ _core:
 id: banana_page_title
 theme: banana
 region: content
-weight: -12
+weight: -14
 provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Programans gratis por áreas profesionales'
+  label: 'Free software by professional areas'
   provider: core
   label_display: '0'
 visibility:

@@ -14,7 +14,7 @@ bundle: programa
 label: Votacion
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value:
   -
     rating: '60'

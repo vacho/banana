@@ -11,7 +11,7 @@ _core:
 id: banana_system_main
 theme: banana
 region: content
-weight: -5
+weight: -7
 provider: null
 plugin: system_main_block
 settings:

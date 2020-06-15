@@ -7,6 +7,9 @@ _core:
 id: front
 label: 'Front page'
 tags:
-  shortlink: '[site:url]'
-  title: '[site:name] | [site:slogan]'
+  abstract: 'Banana Soft es un portal web que recopila software y útiles herramientas de trabajo gratuitas, clasificadas por áreas profesionales y sus respectivas profesiones.'
+  keywords: 'software, programas, app, apps, servicios online'
+  description: 'Banana Soft es un portal web que recopila software y útiles herramientas de trabajo gratuitas, clasificadas por áreas profesionales y sus respectivas profesiones.'
   canonical_url: '[site:url]'
+  shortlink: '[site:url]'
+  title: 'Software, Servicios Online y App Gratis'

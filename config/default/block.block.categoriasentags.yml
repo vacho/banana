@@ -10,12 +10,12 @@ dependencies:
 id: categoriasentags
 theme: banana
 region: sidebar_second
-weight: -8
+weight: -6
 provider: null
 plugin: 'tagclouds_block:tags'
 settings:
   id: 'tagclouds_block:tags'
-  label: 'Categorías en tags'
+  label: 'Category Tag Cloud'
   provider: tagclouds
   label_display: visible
   cache:

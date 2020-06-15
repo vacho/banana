@@ -2,6 +2,7 @@ addtoany: 1.14.0
 admin_toolbar: 2.2.0
 adminimal_admin_toolbar: 1.11.0
 adsense: 1.1.0
+aggregator: 8.9.0
 autosave_form: 1.1.0
 banana: 0.0.0
 banana_programs: 0.0.0
@@ -92,6 +93,8 @@ media_library: 8.8.6
 menu_link_content: 8.8.6
 menu_ui: 8.8.6
 metatag: 1.13.0
+metatag_facebook: 1.13.0
+metatag_open_graph: 1.13.0
 migrate: 8.8.6
 migrate_drupal: 8.8.6
 migrate_drupal_multilingual: 0.0.0
@@ -153,3 +156,4 @@ webform: 5.13.0
 webform_ui: 5.13.0
 workflows: 8.8.6
 xmlsitemap: 1.0.0-rc1
+xmlsitemap_custom: 1.0.0-rc1

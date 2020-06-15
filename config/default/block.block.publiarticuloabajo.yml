@@ -12,7 +12,7 @@ dependencies:
 id: publiarticuloabajo
 theme: banana
 region: content
-weight: -3
+weight: -5
 provider: null
 plugin: 'block_content:bdd1b51d-508b-4517-8f29-8f4daa840533'
 settings:

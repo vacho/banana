@@ -11,7 +11,7 @@ id: block_content.banner.field_summary
 field_name: field_summary
 entity_type: block_content
 bundle: banner
-label: Resumen
+label: Summary
 description: ''
 required: false
 translatable: true

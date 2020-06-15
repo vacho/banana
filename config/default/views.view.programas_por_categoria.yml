@@ -412,8 +412,34 @@ display:
             label: ''
           granularity: second
       title: 'Programas gratis por areas profesionales'
-      header: {  }
-      footer: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<!-- Banana adwords largo -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:inline-block;width:728px;height:15px\"\r\n     data-ad-client=\"ca-pub-2479104003645562\"\r\n     data-ad-slot=\"4439024938\"></ins>\r\n<script>\r\n(adsbygoogle = window.adsbygoogle || []).push({});\r\n</script>"
+            format: php_code
+          plugin_id: text
+      footer:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: "<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"></script>\r\n<!-- Banana adwords largo -->\r\n<ins class=\"adsbygoogle\"\r\n     style=\"display:inline-block;width:728px;height:15px\"\r\n     data-ad-client=\"ca-pub-2479104003645562\"\r\n     data-ad-slot=\"4439024938\"></ins>\r\n<script>\r\n(adsbygoogle = window.adsbygoogle || []).push({});\r\n</script>"
+            format: php_code
+          plugin_id: text
       empty: {  }
       relationships: {  }
       arguments: {  }

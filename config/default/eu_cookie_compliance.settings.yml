@@ -9,7 +9,7 @@ exclude_paths: ''
 exclude_admin_theme: true
 langcode: es
 popup_agreed:
-  value: "<h2>Gracias por aceptar el uso de cookies</h2>\r\n\r\n<p>Puedes ocultar este mensaje o hallar más información acerca de los cookies.</p>\r\n"
+  value: '<h2>Gracias por aceptar el uso de cookies</h2><p>Ya puede ocultar este mensaje o saber más sobre el uso de cookies.</p>'
   format: full_html
 popup_agree_button_message: Aceptar
 popup_agreed_enabled: false
@@ -20,7 +20,7 @@ popup_delay: 1000
 show_more_info: null
 popup_more_info_button_message: null
 popup_enabled: true
-popup_find_more_button_message: 'Más información'
+popup_find_more_button_message: 'Más info'
 popup_height: null
 popup_hide_agreed: false
 popup_hide_button_message: Ocultar
@@ -54,11 +54,11 @@ withdraw_message:
   value: "<h2>Este sitio web utiliza&nbsp;cookies para mejorar la experiencia de navegación</h2>\r\n\r\n<p>Dando click en Aceptar usted nos permite usarlos.</p>\r\n"
   format: full_html
 withdraw_action_button_label: 'Retirar consentimiento'
-withdraw_tab_button_label: 'Configuración de privacidad'
+withdraw_tab_button_label: 'Opciones de privacidad'
 withdraw_enabled: false
 cookie_categories: ''
 enable_save_preferences_button: true
-save_preferences_button_label: 'Save preferences'
+save_preferences_button_label: 'Guardar preferencias'
 accept_all_categories_button_label: 'Accept all cookies'
 fix_first_cookie_category: true
 select_all_categories_by_default: false

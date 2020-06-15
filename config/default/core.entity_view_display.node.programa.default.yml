@@ -3,6 +3,7 @@ langcode: es
 status: true
 dependencies:
   config:
+    - block_content.type.text
     - field.field.node.programa.body
     - field.field.node.programa.field_autor
     - field.field.node.programa.field_categoria
@@ -55,18 +56,21 @@ third_party_settings:
             uuid: b46d721b-b08b-4bdd-a45e-7e6a140f7273
             region: first
             configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
               id: 'field_block:node:programa:field_votacion'
+              label: Votacion
+              provider: layout_builder
+              label_display: '0'
               formatter:
                 label: hidden
+                type: fivestar_stars
                 settings:
                   fivestar_widget: modules/contrib/fivestar/widgets/basic/basic.css
                   display_format: average
                   text_format: average
                 third_party_settings: {  }
-                type: fivestar_stars
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
             additional: {  }
             weight: 4
           66a709af-e9e1-4eca-b474-1961722b73f8:
@@ -357,22 +361,6 @@ third_party_settings:
                 view_mode: view_mode
             additional: {  }
             weight: 10
-          2c6728e8-ff0e-49a3-ad63-fa178ba06cdf:
-            uuid: 2c6728e8-ff0e-49a3-ad63-fa178ba06cdf
-            region: third
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:node:programa:field_categoria'
-              formatter:
-                label: hidden
-                type: entity_reference_label
-                settings:
-                  link: true
-                third_party_settings: {  }
-            additional: {  }
-            weight: 1
           367b2143-ca00-4660-8ea3-2b01a5888f1c:
             uuid: 367b2143-ca00-4660-8ea3-2b01a5888f1c
             region: second
@@ -477,6 +465,42 @@ third_party_settings:
                 entity: layout_builder.entity
             additional: {  }
             weight: 2
+          48e61de1-e4a8-46e4-8752-2720204efd17:
+            uuid: 48e61de1-e4a8-46e4-8752-2720204efd17
+            region: third
+            configuration:
+              id: 'inline_block:text'
+              label: Adsense-banasoft-programa
+              provider: layout_builder
+              label_display: '0'
+              view_mode: full
+              block_revision_id: 25
+              block_serialized: null
+              context_mapping: {  }
+            additional: {  }
+            weight: 3
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: Categorias
+        components:
+          2c6728e8-ff0e-49a3-ad63-fa178ba06cdf:
+            uuid: 2c6728e8-ff0e-49a3-ad63-fa178ba06cdf
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:programa:field_categoria'
+              formatter:
+                label: hidden
+                type: entity_reference_label
+                settings:
+                  link: true
+                third_party_settings: {  }
+            additional: {  }
+            weight: 0
         third_party_settings: {  }
       -
         layout_id: layout_onecol
