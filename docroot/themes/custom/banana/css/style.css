@@ -1085,6 +1085,10 @@ h2.linux-icon {
   font-size: 14px !important;
 }
 
+#search404-page-text {
+    margin: 40px 0px;
+}
+
 @media (max-width: 400px) {
   /* For cellphones: */
   .responsive-text {
