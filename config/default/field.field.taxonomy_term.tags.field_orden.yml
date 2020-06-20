@@ -1,0 +1,23 @@
+uuid: b5a26afd-7a8c-413c-a249-ebdb311ec087
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_orden
+    - taxonomy.vocabulary.tags
+id: taxonomy_term.tags.field_orden
+field_name: field_orden
+entity_type: taxonomy_term
+bundle: tags
+label: Orden
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

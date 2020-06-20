@@ -7,6 +7,7 @@ dependencies:
     - field.field.taxonomy_term.tags.field_image
     - field.field.taxonomy_term.tags.field_link
     - field.field.taxonomy_term.tags.field_metatag
+    - field.field.taxonomy_term.tags.field_orden
     - taxonomy.vocabulary.tags
   module:
     - entity_browser
@@ -55,6 +56,13 @@ content:
       sidebar: true
     third_party_settings: {  }
     type: metatag_firehose
+    region: content
+  field_orden:
+    weight: 10
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   langcode:
     type: language_select

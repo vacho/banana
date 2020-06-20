@@ -19,7 +19,7 @@ settings:
   id: 'block_content:bdd1b51d-508b-4517-8f29-8f4daa840533'
   label: 'Publi artículo abajo'
   provider: block_content
-  label_display: visible
+  label_display: '0'
   status: true
   info: ''
   view_mode: full

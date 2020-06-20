@@ -1,4 +1,7 @@
-label: Global
 tags:
+  abstract: 'Banana Soft is a web site that collects free software and useful work tools, classified by professional areas and their respective professions.'
+  keywords: 'software, programs, app, apps, online services'
+  description: 'Banana Soft is a web site that collects free software and useful work tools, classified by professional areas and their respective professions.'
   canonical_url: '[current-page:url]'
   title: '[current-page:title] | [site:name]'
+label: Global

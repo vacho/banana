@@ -126,6 +126,7 @@ responsive_share_buttons: 1.0.0
 schemata: 1.0.0-beta2
 schemata_json_schema: 1.0.0-beta2
 search: 8.8.6
+search404: 2.0.0
 search_api: 1.16.0
 search_api_db: 1.16.0
 serialization: 8.8.6
@@ -157,3 +158,4 @@ webform_ui: 5.13.0
 workflows: 8.8.6
 xmlsitemap: 1.0.0-rc1
 xmlsitemap_custom: 1.0.0-rc1
+xmlsitemap_engines: 1.0.0-rc1

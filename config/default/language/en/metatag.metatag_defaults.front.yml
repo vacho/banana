@@ -1,4 +1,5 @@
-label: 'Front page'
 tags:
+  title: 'Free Software, Online services & App'
   canonical_url: '[site:url]'
   shortlink: '[site:url]'
+label: 'Front page'

@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.article.field_image
     - field.field.node.article.field_metatag
     - field.field.node.article.field_tags
-    - image.style.large
+    - image.style.media_library
     - node.type.article
   module:
     - image
@@ -35,7 +35,7 @@ content:
     weight: 1
     type: image
     settings:
-      image_style: large
+      image_style: media_library
       image_link: ''
     third_party_settings: {  }
     region: content

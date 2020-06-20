@@ -305,7 +305,19 @@ display:
           entity_type: taxonomy_term
           entity_field: parent
           plugin_id: numeric
-      sorts: {  }
+      sorts:
+        field_orden_value:
+          id: field_orden_value
+          table: taxonomy_term__field_orden
+          field: field_orden_value
+          relationship: none
+          group_type: group
+          admin_label: ''
+          order: DESC
+          exposed: false
+          expose:
+            label: ''
+          plugin_id: standard
       title: 'Categorías Profesionales'
       header: {  }
       footer: {  }
