@@ -4,7 +4,8 @@
  * @file
  * Primary module hooks for Banana programs module.
  */
-
+use Drupal\views\ViewExecutable;
+use Drupal\taxonomy\Entity\Term;
 
 /**
  * Implements hook_views_data_alter().
@@ -20,4 +21,24 @@ function banana_programs_views_data_alter(array &$data) {
       'id' => 'views_category_children_filter'
     ],
   ];
+}
+
+/**
+ * Implements hook_views_pre_render().
+ */
+function banana_programs_views_pre_render(ViewExecutable $view) {
+  // Update title for category view.
+  $update_title = FALSE;
+  if ($view->id() == 'software_by_category' && $id_category = \Drupal::request()->query->get('profession')) {
+    $update_title = TRUE;
+  }
+  if ($view->id() == 'programas_por_categoria' && $id_category = \Drupal::request()->query->get('profesion')) {
+    $update_title = TRUE;
+  }
+  if ($update_title) {
+    $category = Term::load($id_category);
+    $curr_langcode = \Drupal::languageManager()->getCurrentLanguage(\Drupal\Core\Language\LanguageInterface::TYPE_CONTENT)->getId();
+    $translated = \Drupal::service('entity.repository')->getTranslationFromContext($category, $curr_langcode);
+    $view->setTitle($translated->getName());
+  }
 }

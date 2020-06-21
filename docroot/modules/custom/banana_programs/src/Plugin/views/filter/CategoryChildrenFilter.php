@@ -62,12 +62,5 @@ class CategoryChildrenFilter extends InOperator {
       return $this->valueOptions;
     }
 
-    /*$this->valueOptions = [
-      '295' => 'Fisica ...',
-      '320' => 'Astrologueis',
-      '318' => 'Astronomeis',
-    ];
-    return $this->valueOptions;*/
-
   }
 }
