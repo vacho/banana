@@ -383,7 +383,20 @@ display:
           plugin_id: language
       sorts: {  }
       title: 'Programas por Áreas Profesionales'
-      header: {  }
+      header:
+        area:
+          id: area
+          table: views
+          field: area
+          relationship: none
+          group_type: group
+          admin_label: ''
+          empty: false
+          tokenize: false
+          content:
+            value: '<h1>Software, Servicios Online y Apps Gratis</h1>'
+            format: full_html
+          plugin_id: text
       footer: {  }
       empty: {  }
       relationships: {  }

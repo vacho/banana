@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.programa.field_autor
     - field.field.node.programa.field_categoria
     - field.field.node.programa.field_comentarios
+    - field.field.node.programa.field_comentarioscore
     - field.field.node.programa.field_de_prueba
     - field.field.node.programa.field_demo
     - field.field.node.programa.field_gratis
@@ -30,6 +31,7 @@ dependencies:
     - field.field.node.programa.layout_selection
     - node.type.programa
   module:
+    - comment
     - content_moderation
     - disqus
     - entity_browser
@@ -78,6 +80,12 @@ content:
     settings: {  }
     third_party_settings: {  }
     type: disqus_comment
+    region: content
+  field_comentarioscore:
+    weight: 125
+    settings: {  }
+    third_party_settings: {  }
+    type: comment_default
     region: content
   field_de_prueba:
     weight: 16

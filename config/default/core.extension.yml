@@ -14,6 +14,7 @@ module:
   breakpoint: 0
   ckeditor: 0
   colorbox: 0
+  comment: 0
   config: 0
   config_translation: 0
   conflict: 0

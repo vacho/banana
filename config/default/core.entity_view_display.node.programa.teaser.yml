@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.programa.field_autor
     - field.field.node.programa.field_categoria
     - field.field.node.programa.field_comentarios
+    - field.field.node.programa.field_comentarioscore
     - field.field.node.programa.field_de_prueba
     - field.field.node.programa.field_demo
     - field.field.node.programa.field_gratis
@@ -205,6 +206,7 @@ hidden:
   body: true
   field_autor: true
   field_comentarios: true
+  field_comentarioscore: true
   field_de_prueba: true
   field_demo: true
   field_gratis: true

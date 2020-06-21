@@ -3,13 +3,28 @@ langcode: en
 status: true
 dependencies: {  }
 name: medium_190x190
-label: 'Medium 190x190'
+label: 'Medium 190x160'
 effects:
   31588a62-1d3a-4533-8c8b-faf3c3ffbc2c:
     uuid: 31588a62-1d3a-4533-8c8b-faf3c3ffbc2c
     id: image_scale
-    weight: 1
+    weight: -9
     data:
       width: 190
-      height: 190
+      height: 160
       upscale: false
+  cf4c3c32-39fa-438c-bb54-32062bf9eb62:
+    uuid: cf4c3c32-39fa-438c-bb54-32062bf9eb62
+    id: image_crop
+    weight: -10
+    data:
+      width: 190
+      height: 160
+      anchor: center-center
+  5dfe5fda-4ca9-4456-9a9c-4c57997e73e6:
+    uuid: 5dfe5fda-4ca9-4456-9a9c-4c57997e73e6
+    id: image_resize
+    weight: 3
+    data:
+      width: 190
+      height: 160

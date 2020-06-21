@@ -14,6 +14,7 @@ block_content: 8.8.6
 breakpoint: 8.8.6
 ckeditor: 8.8.6
 colorbox: 1.6.0
+comment: 8.9.0
 config: 8.8.6
 config_translation: 8.8.6
 conflict: 2.0.0-alpha2
