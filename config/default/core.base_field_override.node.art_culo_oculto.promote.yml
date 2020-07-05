@@ -1,0 +1,22 @@
+uuid: 6ab28256-cfa1-47b1-8e01-3c2e7643bc4c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.art_culo_oculto
+id: node.art_culo_oculto.promote
+field_name: promote
+entity_type: node
+bundle: art_culo_oculto
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

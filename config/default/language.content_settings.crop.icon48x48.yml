@@ -8,4 +8,4 @@ id: crop.icon48x48
 target_entity_type_id: crop
 target_bundle: icon48x48
 default_langcode: site_default
-language_alterable: false
+language_alterable: true

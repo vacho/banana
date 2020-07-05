@@ -11,9 +11,9 @@ dependencies:
 third_party_settings:
   content_translation:
     translation_sync:
-      alt: alt
-      title: title
-      file: '0'
+      file: file
+      alt: '0'
+      title: '0'
 _core:
   default_config_hash: mlEZHtyS_H9CfPQAGX16s-Bi-7iPYEhKlip-ml1ITSg
 id: block_content.banner.field_banner_image

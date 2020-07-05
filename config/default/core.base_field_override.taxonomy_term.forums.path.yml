@@ -1,21 +1,20 @@
-uuid: cb86085d-493d-4100-aa94-ae4a88f5ee5c
-langcode: es
+uuid: cabba412-cab7-458c-8706-70ba782da2d3
+langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.taxonomy_term.field_metatag
     - taxonomy.vocabulary.forums
   module:
-    - metatag
-id: taxonomy_term.forums.field_metatag
-field_name: field_metatag
+    - path
+id: taxonomy_term.forums.path
+field_name: path
 entity_type: taxonomy_term
 bundle: forums
-label: 'Meta tags'
+label: 'URL alias'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: metatag
+field_type: path

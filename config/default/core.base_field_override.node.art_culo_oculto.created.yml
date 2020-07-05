@@ -1,0 +1,18 @@
+uuid: 0b1e5cf1-a04e-4ae7-aa99-b95c998dd566
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.art_culo_oculto
+id: node.art_culo_oculto.created
+field_name: created
+entity_type: node
+bundle: art_culo_oculto
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

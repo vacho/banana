@@ -1,8 +1,0 @@
-uuid: 96119b8a-8f15-4cdb-a929-12f1b9c6283d
-langcode: en
-status: true
-dependencies: {  }
-id: t9UQ7FvqR0wMQMnd5n2XukH0kM9liAM9wOhfSLRl2qw
-label: 'http://banana-soft.com/es'
-context:
-  language: es

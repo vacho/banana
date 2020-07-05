@@ -1,0 +1,18 @@
+uuid: 9f7df0ea-8ffa-46cc-b694-9defa3498596
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.forums
+id: taxonomy_term.forums.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: forums
+label: Metatags
+description: 'The meta tags for the entity.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

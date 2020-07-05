@@ -1,0 +1,20 @@
+uuid: 9f133d60-362c-4c57-8830-b4bbae843e17
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.art_culo_oculto
+id: node.art_culo_oculto.uid
+field_name: uid
+entity_type: node
+bundle: art_culo_oculto
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

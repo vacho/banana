@@ -1,21 +1,20 @@
-uuid: 4bb50e7f-ec04-455c-be99-d863280b9820
-langcode: es
+uuid: 494b0b51-33c6-49f2-8513-aa5eae24c5f2
+langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_metatag
     - node.type.art_culo_oculto
   module:
-    - metatag
-id: node.art_culo_oculto.field_metatag
-field_name: field_metatag
+    - datetime
+id: node.art_culo_oculto.scheduled_transition_date
+field_name: scheduled_transition_date
 entity_type: node
 bundle: art_culo_oculto
-label: 'Meta tags'
+label: 'Scheduled transition date'
 description: ''
 required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: metatag
+field_type: datetime
