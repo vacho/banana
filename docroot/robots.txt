@@ -62,4 +62,4 @@ Disallow: /index.php/user/register/
 Disallow: /index.php/user/login/
 Disallow: /index.php/user/logout/
 # SEO multilingual
-Disallow: /*?language=*
+# Disallow: /*?language=*
