@@ -335,7 +335,7 @@ display:
           empty: false
           tokenize: false
           content:
-            value: '<div style="text-align: center; background-color: #bbded9; float: left; width: 100%; margin-top: 6px; margin-bottom: 6px; font-family: sans-serif;"><a href="/novedades-software-por-areas-profesionales" style="color: rgba(0, 0, 0, 0.65); text-decoration: none;"><h2>Las Mejores Recopilaciones de Programas Gratis</h2></a></div>'
+            value: '<div style="text-align: center; background-color: #bbded9; float: left; width: 100%; margin-top: 6px; margin-bottom: 6px; font-family: sans-serif;"><a href="/en/news-software-by-professional-areas" style="color: rgba(0, 0, 0, 0.65); text-decoration: none;"><h2>Best compilations of free software</h2></a></div>'
             format: full_html
           plugin_id: text
       footer: {  }
