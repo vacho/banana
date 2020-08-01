@@ -17,7 +17,7 @@
         "drupal/honeypot": "^2",
         "drupal/responsive_share_buttons": "^1.0",
         "drupal/tagclouds": "^1.0",
-        "drupal/views_bulk_operations": "^3.6",
+        "drupal/views_bulk_operations": "^3.8",
         "drupal/webform": "^5.13",
         "drupal/xmlsitemap": "^1.0",
         "drupal/drupal8_zymphonies_theme": "^1.4",
